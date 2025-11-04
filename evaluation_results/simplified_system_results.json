@@ -1,0 +1,94 @@
+[
+  {
+    "query_id": "simple_solar_filing",
+    "query": "光伏项目如何备案？",
+    "difficulty": "Simple",
+    "province": "gd",
+    "asset": "solar",
+    "response_time": 4.438381195068359,
+    "system_response": {
+      "error": true,
+      "message": "Failed to retrieve or process documents",
+      "total_processing_time": 4.438318967819214
+    },
+    "committee_analysis": {
+      "has_real_citations": false,
+      "citation_count": 0,
+      "government_sources": false,
+      "contains_unknown_doc": false,
+      "verifiable_urls": false,
+      "retrieval_method": "unknown",
+      "template_response": false
+    },
+    "timestamp": "2025-10-29T13:44:49.113670"
+  },
+  {
+    "query_id": "moderate_solar_capacity",
+    "query": "广东省分布式光伏发电项目装机容量限制标准是什么？",
+    "difficulty": "Moderate",
+    "province": "gd",
+    "asset": "solar",
+    "response_time": 0.00010895729064941406,
+    "system_response": {
+      "error": true,
+      "message": "Failed to retrieve or process documents",
+      "total_processing_time": 5.0067901611328125e-05
+    },
+    "committee_analysis": {
+      "has_real_citations": false,
+      "citation_count": 0,
+      "government_sources": false,
+      "contains_unknown_doc": false,
+      "verifiable_urls": false,
+      "retrieval_method": "unknown",
+      "template_response": false
+    },
+    "timestamp": "2025-10-29T13:44:49.115448"
+  },
+  {
+    "query_id": "complex_multi_province",
+    "query": "跨省风电项目在山东和江苏两省之间的电力输送并网审批流程中，涉及哪些监管部门的协调机制？",
+    "difficulty": "Complex",
+    "province": "sd",
+    "asset": "wind",
+    "response_time": 3.1948089599609375e-05,
+    "system_response": {
+      "error": true,
+      "message": "Failed to retrieve or process documents",
+      "total_processing_time": 2.9087066650390625e-05
+    },
+    "committee_analysis": {
+      "has_real_citations": false,
+      "citation_count": 0,
+      "government_sources": false,
+      "contains_unknown_doc": false,
+      "verifiable_urls": false,
+      "retrieval_method": "unknown",
+      "template_response": false
+    },
+    "timestamp": "2025-10-29T13:44:49.115517"
+  },
+  {
+    "query_id": "very_difficult_comprehensive",
+    "query": "在碳达峰碳中和目标约束下，内蒙古自治区煤电项目实施灵活性改造时，如何平衡电力系统调峰需求、环保超低排放要求、以及可再生能源消纳政策的多重约束条件？",
+    "difficulty": "Very Difficult",
+    "province": "nm",
+    "asset": "coal",
+    "response_time": 3.981590270996094e-05,
+    "system_response": {
+      "error": true,
+      "message": "Failed to retrieve or process documents",
+      "total_processing_time": 3.886222839355469e-05
+    },
+    "committee_analysis": {
+      "has_real_citations": false,
+      "citation_count": 0,
+      "government_sources": false,
+      "contains_unknown_doc": false,
+      "verifiable_urls": false,
+      "retrieval_method": "unknown",
+      "template_response": false
+    },
+    "timestamp": "2025-10-29T13:44:49.115967"
+  }
+]

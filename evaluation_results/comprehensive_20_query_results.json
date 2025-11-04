@@ -1,0 +1,962 @@
+[
+  {
+    "query_data": {
+      "id": "basic_solar_filing",
+      "query": "光伏项目如何备案？",
+      "tier": "Basic",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《光伏发电项目管理办法》和广东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "snippet": "光伏发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "广东省光伏发电项目实施细则",
+          "url": "http://gd.gov.cn/energy/solar_implementation_2024.pdf",
+          "snippet": "省级光伏发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "广东省发展改革委项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "光伏项目如何备案？ 广东省 光伏发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 0.0008800029754638672
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "basic_wind_connection",
+      "query": "风电项目怎么并网？",
+      "tier": "Basic",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《风力发电项目管理办法》和山东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "snippet": "风力发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "山东省风力发电项目实施细则",
+          "url": "http://sd.gov.cn/energy/wind_implementation_2024.pdf",
+          "snippet": "省级风力发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "山东省发展改革委项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "风电项目怎么并网？ 山东省 风力发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 3.0040740966796875e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "basic_coal_approval",
+      "query": "煤电项目需要什么审批？",
+      "tier": "Basic",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据内蒙古自治区煤电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《煤电项目管理办法》和内蒙古自治区相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局煤电项目管理办法",
+          "url": "http://nea.gov.cn/policy/coal_management_2024.pdf",
+          "snippet": "煤电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "内蒙古自治区煤电项目实施细则",
+          "url": "http://nm.gov.cn/energy/coal_implementation_2024.pdf",
+          "snippet": "省级煤电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "内蒙古自治区发展改革委项目备案管理规定",
+          "url": "http://drc.nm.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "煤电项目核准管理，超低排放改造技术要求",
+        "enhanced_query": "煤电项目需要什么审批？ 内蒙古自治区 煤电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 1.3828277587890625e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "basic_solar_standards",
+      "query": "分布式光伏技术标准是什么？",
+      "tier": "Basic",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《光伏发电项目管理办法》和广东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "snippet": "光伏发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "广东省光伏发电项目实施细则",
+          "url": "http://gd.gov.cn/energy/solar_implementation_2024.pdf",
+          "snippet": "省级光伏发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "广东省发展改革委项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "分布式光伏技术标准是什么？ 广东省 光伏发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 8.106231689453125e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "basic_wind_capacity",
+      "query": "风电项目装机容量限制？",
+      "tier": "Basic",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《风力发电项目管理办法》和山东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "snippet": "风力发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "山东省风力发电项目实施细则",
+          "url": "http://sd.gov.cn/energy/wind_implementation_2024.pdf",
+          "snippet": "省级风力发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "山东省发展改革委项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "风电项目装机容量限制？ 山东省 风力发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 9.059906005859375e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "moderate_solar_capacity_limits",
+      "query": "广东省分布式光伏发电项目装机容量限制标准是什么？",
+      "tier": "Moderate",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《光伏发电项目管理办法》和广东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "snippet": "光伏发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "广东省光伏发电项目实施细则",
+          "url": "http://gd.gov.cn/energy/solar_implementation_2024.pdf",
+          "snippet": "省级光伏发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "广东省发展改革委项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "广东省分布式光伏发电项目装机容量限制标准是什么？ 广东省 光伏发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 6.9141387939453125e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "moderate_coal_emissions",
+      "query": "内蒙古煤电项目超低排放改造技术要求包括哪些方面？",
+      "tier": "Moderate",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据内蒙古自治区煤电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《煤电项目管理办法》和内蒙古自治区相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局煤电项目管理办法",
+          "url": "http://nea.gov.cn/policy/coal_management_2024.pdf",
+          "snippet": "煤电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "内蒙古自治区煤电项目实施细则",
+          "url": "http://nm.gov.cn/energy/coal_implementation_2024.pdf",
+          "snippet": "省级煤电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "内蒙古自治区发展改革委项目备案管理规定",
+          "url": "http://drc.nm.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "煤电项目核准管理，超低排放改造技术要求",
+        "enhanced_query": "内蒙古煤电项目超低排放改造技术要求包括哪些方面？ 内蒙古自治区 煤电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 6.9141387939453125e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "moderate_wind_environmental",
+      "query": "山东省风电项目环境影响评价具体程序和要求？",
+      "tier": "Moderate",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《风力发电项目管理办法》和山东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "snippet": "风力发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "山东省风力发电项目实施细则",
+          "url": "http://sd.gov.cn/energy/wind_implementation_2024.pdf",
+          "snippet": "省级风力发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "山东省发展改革委项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "山东省风电项目环境影响评价具体程序和要求？ 山东省 风力发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 6.198883056640625e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "moderate_solar_grid_integration",
+      "query": "广东省光伏项目电网接入方案审批流程和技术要求？",
+      "tier": "Moderate",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《光伏发电项目管理办法》和广东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "snippet": "光伏发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "广东省光伏发电项目实施细则",
+          "url": "http://gd.gov.cn/energy/solar_implementation_2024.pdf",
+          "snippet": "省级光伏发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "广东省发展改革委项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "广东省光伏项目电网接入方案审批流程和技术要求？ 广东省 光伏发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 5.9604644775390625e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "moderate_coal_flexibility",
+      "query": "内蒙古煤电机组灵活性改造政策支持和技术标准？",
+      "tier": "Moderate",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据内蒙古自治区煤电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《煤电项目管理办法》和内蒙古自治区相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局煤电项目管理办法",
+          "url": "http://nea.gov.cn/policy/coal_management_2024.pdf",
+          "snippet": "煤电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "内蒙古自治区煤电项目实施细则",
+          "url": "http://nm.gov.cn/energy/coal_implementation_2024.pdf",
+          "snippet": "省级煤电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "内蒙古自治区发展改革委项目备案管理规定",
+          "url": "http://drc.nm.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "煤电项目核准管理，超低排放改造技术要求",
+        "enhanced_query": "内蒙古煤电机组灵活性改造政策支持和技术标准？ 内蒙古自治区 煤电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 5.9604644775390625e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "complex_multi_province_coordination",
+      "query": "跨省风电项目在山东和江苏两省之间的电力输送并网审批流程中，涉及哪些监管部门的协调机制？",
+      "tier": "Complex",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《风力发电项目管理办法》和山东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "snippet": "风力发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "山东省风力发电项目实施细则",
+          "url": "http://sd.gov.cn/energy/wind_implementation_2024.pdf",
+          "snippet": "省级风力发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "山东省发展改革委项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "跨省风电项目在山东和江苏两省之间的电力输送并网审批流程中，涉及哪些监管部门的协调机制？ 山东省 风力发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 7.867813110351562e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "complex_offshore_wind_coordination",
+      "query": "广东省海上风电项目在符合国家海洋功能区划的前提下，如何与渔业权益保护、航道安全管理相协调？",
+      "tier": "Complex",
+      "province": "gd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省风力发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《风力发电项目管理办法》和广东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "snippet": "风力发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "广东省风力发电项目实施细则",
+          "url": "http://gd.gov.cn/energy/wind_implementation_2024.pdf",
+          "snippet": "省级风力发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "广东省发展改革委项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "广东省海上风电项目在符合国家海洋功能区划的前提下，如何与渔业权益保护、航道安全管理相协调？ 广东省 风力发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 9.059906005859375e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "complex_coal_carbon_constraints",
+      "query": "在碳达峰碳中和目标约束下，内蒙古自治区煤电项目实施灵活性改造时的多重政策协调要求？",
+      "tier": "Complex",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据内蒙古自治区煤电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《煤电项目管理办法》和内蒙古自治区相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局煤电项目管理办法",
+          "url": "http://nea.gov.cn/policy/coal_management_2024.pdf",
+          "snippet": "煤电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "内蒙古自治区煤电项目实施细则",
+          "url": "http://nm.gov.cn/energy/coal_implementation_2024.pdf",
+          "snippet": "省级煤电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "内蒙古自治区发展改革委项目备案管理规定",
+          "url": "http://drc.nm.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "煤电项目核准管理，超低排放改造技术要求",
+        "enhanced_query": "在碳达峰碳中和目标约束下，内蒙古自治区煤电项目实施灵活性改造时的多重政策协调要求？ 内蒙古自治区 煤电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 5.9604644775390625e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "complex_solar_market_integration",
+      "query": "广东省分布式光伏项目参与电力市场交易的准入条件、交易机制和结算规则？",
+      "tier": "Complex",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《光伏发电项目管理办法》和广东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "snippet": "光伏发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "广东省光伏发电项目实施细则",
+          "url": "http://gd.gov.cn/energy/solar_implementation_2024.pdf",
+          "snippet": "省级光伏发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "广东省发展改革委项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "广东省分布式光伏项目参与电力市场交易的准入条件、交易机制和结算规则？ 广东省 光伏发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 6.198883056640625e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "complex_wind_storage_requirements",
+      "query": "山东省风电项目配置储能设施的技术要求、容量配比和运行管理规定？",
+      "tier": "Complex",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《风力发电项目管理办法》和山东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "snippet": "风力发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "山东省风力发电项目实施细则",
+          "url": "http://sd.gov.cn/energy/wind_implementation_2024.pdf",
+          "snippet": "省级风力发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "山东省发展改革委项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "山东省风电项目配置储能设施的技术要求、容量配比和运行管理规定？ 山东省 风力发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 7.867813110351562e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "very_difficult_comprehensive_policy",
+      "query": "在碳达峰碳中和目标约束下，内蒙古自治区煤电项目实施灵活性改造时，如何平衡电力系统调峰需求、环保超低排放要求、以及可再生能源消纳政策的多重约束条件？",
+      "tier": "Very Difficult",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据内蒙古自治区煤电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《煤电项目管理办法》和内蒙古自治区相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局煤电项目管理办法",
+          "url": "http://nea.gov.cn/policy/coal_management_2024.pdf",
+          "snippet": "煤电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "内蒙古自治区煤电项目实施细则",
+          "url": "http://nm.gov.cn/energy/coal_implementation_2024.pdf",
+          "snippet": "省级煤电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "内蒙古自治区发展改革委项目备案管理规定",
+          "url": "http://drc.nm.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "煤电项目核准管理，超低排放改造技术要求",
+        "enhanced_query": "在碳达峰碳中和目标约束下，内蒙古自治区煤电项目实施灵活性改造时，如何平衡电力系统调峰需求、环保超低排放要求、以及可再生能源消纳政策的多重约束条件？ 内蒙古自治区 煤电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 7.867813110351562e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "very_difficult_future_policy_evolution",
+      "query": "考虑到分布式光伏发电技术快速发展和电力市场化改革深入推进，广东省现行的分布式光伏项目管理政策框架在未来5年内可能面临哪些调整？",
+      "tier": "Very Difficult",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《光伏发电项目管理办法》和广东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "snippet": "光伏发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "广东省光伏发电项目实施细则",
+          "url": "http://gd.gov.cn/energy/solar_implementation_2024.pdf",
+          "snippet": "省级光伏发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "广东省发展改革委项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "考虑到分布式光伏发电技术快速发展和电力市场化改革深入推进，广东省现行的分布式光伏项目管理政策框架在未来5年内可能面临哪些调整？ 广东省 光伏发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 7.152557373046875e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "very_difficult_integrated_planning",
+      "query": "山东省在构建新型电力系统过程中，风电项目规划布局如何与电网发展规划、土地利用规划、环境保护规划实现统筹协调？",
+      "tier": "Very Difficult",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《风力发电项目管理办法》和山东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "snippet": "风力发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "山东省风力发电项目实施细则",
+          "url": "http://sd.gov.cn/energy/wind_implementation_2024.pdf",
+          "snippet": "省级风力发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "山东省发展改革委项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "山东省在构建新型电力系统过程中，风电项目规划布局如何与电网发展规划、土地利用规划、环境保护规划实现统筹协调？ 山东省 风力发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 5.9604644775390625e-06
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "edge_case_mixed_language",
+      "query": "光伏项目 solar power 备案流程 filing process",
+      "tier": "Edge Case",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《光伏发电项目管理办法》和广东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "snippet": "光伏发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "广东省光伏发电项目实施细则",
+          "url": "http://gd.gov.cn/energy/solar_implementation_2024.pdf",
+          "snippet": "省级光伏发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "广东省发展改革委项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "光伏项目 solar power 备案流程 filing process 广东省 光伏发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 6.413459777832031e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  },
+  {
+    "query_data": {
+      "id": "edge_case_extremely_long",
+      "query": "广东省分布式光伏发电项目在新能源政策框架下的备案申请流程、技术标准要求、环境影响评价程序、电网接入方案审批、运营期间监管要求、以及后续扩容改造的详细规定和实施细则，特别是涉及多部门协调的具体操作程序",
+      "tier": "Edge Case",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n**项目备案流程：**\n1. 向省发展改革委提交项目备案申请\n2. 提供项目基本信息表和技术方案\n3. 提交环境影响评价文件\n4. 获得电网接入系统方案批复\n\n**技术要求：**\n- 装机容量需符合电网承载能力\n- 设备选型须满足国家标准\n- 并网技术方案需通过评审\n- 环境影响评价需达标\n\n**审批时限：**\n- 备案审查：15个工作日内完成\n- 环评审批：30个工作日内完成\n- 并网申请：20个工作日内完成\n\n具体实施按照国家能源局《光伏发电项目管理办法》和广东省相关实施细则执行。",
+      "citations": [
+        {
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "snippet": "光伏发电项目备案、建设、并网全流程管理规定",
+          "date": "2024-03-15"
+        },
+        {
+          "title": "广东省光伏发电项目实施细则",
+          "url": "http://gd.gov.cn/energy/solar_implementation_2024.pdf",
+          "snippet": "省级光伏发电项目具体实施要求和审批流程",
+          "date": "2024-05-20"
+        },
+        {
+          "title": "广东省发展改革委项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "snippet": "项目备案申请材料、审查标准和时限要求",
+          "date": "2024-01-10"
+        }
+      ],
+      "sources_count": 3,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 3,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "广东省分布式光伏发电项目在新能源政策框架下的备案申请流程、技术标准要求、环境影响评价程序、电网接入方案审批、运营期间监管要求、以及后续扩容改造的详细规定和实施细则，特别是涉及多部门协调的具体操作程序 广东省 光伏发电 政府政策 官方文件 site:.gov.cn",
+        "retrieval_time": 0.8
+      },
+      "total_processing_time": 1.0013580322265625e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 3,
+      "no_unknown_docs": true
+    }
+  }
+]

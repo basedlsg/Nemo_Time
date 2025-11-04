@@ -1,0 +1,313 @@
+{
+  "test_summary": {
+    "start_time": 1761637209.684886,
+    "total_queries": 12,
+    "test_categories": [
+      "precision",
+      "keyword_coverage",
+      "citation_quality",
+      "chinese_processing"
+    ]
+  },
+  "current_system_results": {
+    "system_name": "current",
+    "test_timestamp": 1761637209.6850162,
+    "metrics": {
+      "precision_scores": [],
+      "keyword_coverage_scores": [],
+      "citation_accuracy_scores": [],
+      "chinese_processing_scores": [],
+      "response_times": []
+    },
+    "query_results": [],
+    "error_count": 9,
+    "successful_queries": 0,
+    "aggregate_metrics": {
+      "avg_precision": 0.0,
+      "avg_keyword_coverage": 0.0,
+      "avg_citation_accuracy": 0.0,
+      "avg_chinese_processing": 0.0,
+      "avg_response_time": 0.0,
+      "p95_response_time": 0.0,
+      "success_rate": 0.0
+    }
+  },
+  "rag_anything_results": {
+    "system_name": "rag_anything",
+    "test_timestamp": 1761637223.4280279,
+    "metrics": {
+      "precision_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "keyword_coverage_scores": [
+        0.8,
+        1.0,
+        0.8,
+        1.0,
+        0.8333333333333334,
+        0.8333333333333334,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "citation_accuracy_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "chinese_processing_scores": [
+        0.7426829268292683,
+        0.7500000000000001,
+        0.7500000000000001,
+        0.6769565217391305,
+        0.6623404255319149,
+        0.7009803921568628,
+        0.6508695652173914,
+        0.7357142857142858,
+        0.6595652173913044
+      ],
+      "response_times": [
+        808.2969188690186,
+        800.440788269043,
+        803.7610054016113,
+        807.2068691253662,
+        800.3859519958496,
+        806.4651489257812,
+        808.7520599365234,
+        803.6019802093506,
+        805.1409721374512
+      ]
+    },
+    "query_results": [
+      {
+        "query_id": "gq_001",
+        "question": "光伏并网验收需要哪些资料？",
+        "province": "gd",
+        "asset": "solar",
+        "precision_score": 1.0,
+        "keyword_coverage": 0.8,
+        "citation_accuracy": 1.0,
+        "chinese_processing": 0.7426829268292683,
+        "response_time_ms": 808.2969188690186,
+        "has_answer": true,
+        "citation_count": 4,
+        "response_mode": "rag_anything"
+      },
+      {
+        "query_id": "gq_002",
+        "question": "风电项目并网技术要求",
+        "province": "sd",
+        "asset": "wind",
+        "precision_score": 1.0,
+        "keyword_coverage": 1.0,
+        "citation_accuracy": 1.0,
+        "chinese_processing": 0.7500000000000001,
+        "response_time_ms": 800.440788269043,
+        "has_answer": true,
+        "citation_count": 4,
+        "response_mode": "rag_anything"
+      },
+      {
+        "query_id": "gq_003",
+        "question": "煤电并网管理规定",
+        "province": "nm",
+        "asset": "coal",
+        "precision_score": 1.0,
+        "keyword_coverage": 0.8,
+        "citation_accuracy": 1.0,
+        "chinese_processing": 0.7500000000000001,
+        "response_time_ms": 803.7610054016113,
+        "has_answer": true,
+        "citation_count": 4,
+        "response_mode": "rag_anything"
+      },
+      {
+        "query_id": "gq_004",
+        "question": "分布式光伏发电项目备案需要什么条件和材料？",
+        "province": "gd",
+        "asset": "solar",
+        "precision_score": 1.0,
+        "keyword_coverage": 1.0,
+        "citation_accuracy": 1.0,
+        "chinese_processing": 0.6769565217391305,
+        "response_time_ms": 807.2068691253662,
+        "has_answer": true,
+        "citation_count": 5,
+        "response_mode": "rag_anything"
+      },
+      {
+        "query_id": "gq_005",
+        "question": "海上风电场电压等级和保护装置配置要求",
+        "province": "sd",
+        "asset": "wind",
+        "precision_score": 1.0,
+        "keyword_coverage": 0.8333333333333334,
+        "citation_accuracy": 1.0,
+        "chinese_processing": 0.6623404255319149,
+        "response_time_ms": 800.3859519958496,
+        "has_answer": true,
+        "citation_count": 5,
+        "response_mode": "rag_anything"
+      },
+      {
+        "query_id": "gq_006",
+        "question": "燃煤电厂环保设施验收标准和程序",
+        "province": "nm",
+        "asset": "coal",
+        "precision_score": 1.0,
+        "keyword_coverage": 0.8333333333333334,
+        "citation_accuracy": 1.0,
+        "chinese_processing": 0.7009803921568628,
+        "response_time_ms": 806.4651489257812,
+        "has_answer": true,
+        "citation_count": 5,
+        "response_mode": "rag_anything"
+      },
+      {
+        "query_id": "gq_007",
+        "question": "110kV以上电压等级的光伏电站并网需要哪些技术改造和安全措施？",
+        "province": "gd",
+        "asset": "solar",
+        "precision_score": 1.0,
+        "keyword_coverage": 0.6666666666666666,
+        "citation_accuracy": 1.0,
+        "chinese_processing": 0.6508695652173914,
+        "response_time_ms": 808.7520599365234,
+        "has_answer": true,
+        "citation_count": 6,
+        "response_mode": "rag_anything"
+      },
+      {
+        "query_id": "gq_008",
+        "question": "跨省风电项目的审批流程和各部门协调机制",
+        "province": "sd",
+        "asset": "wind",
+        "precision_score": 1.0,
+        "keyword_coverage": 0.6666666666666666,
+        "citation_accuracy": 1.0,
+        "chinese_processing": 0.7357142857142858,
+        "response_time_ms": 803.6019802093506,
+        "has_answer": true,
+        "citation_count": 6,
+        "response_mode": "rag_anything"
+      },
+      {
+        "query_id": "gq_009",
+        "question": "超临界燃煤机组并网后的调度运行和辅助服务要求",
+        "province": "nm",
+        "asset": "coal",
+        "precision_score": 1.0,
+        "keyword_coverage": 0.6666666666666666,
+        "citation_accuracy": 1.0,
+        "chinese_processing": 0.6595652173913044,
+        "response_time_ms": 805.1409721374512,
+        "has_answer": true,
+        "citation_count": 6,
+        "response_mode": "rag_anything"
+      }
+    ],
+    "error_count": 0,
+    "successful_queries": 9,
+    "aggregate_metrics": {
+      "avg_precision": 1.0,
+      "avg_keyword_coverage": 0.8074074074074075,
+      "avg_citation_accuracy": 1.0,
+      "avg_chinese_processing": 0.7032343705089065,
+      "avg_response_time": 804.8946327633328,
+      "p95_response_time": 808.7520599365234,
+      "success_rate": 1.0
+    }
+  },
+  "comparative_analysis": {
+    "metric_comparisons": {
+      "avg_precision": {
+        "metric_name": "Average Precision",
+        "current_value": 0.0,
+        "rag_anything_value": 1.0,
+        "improvement_percent": 0.0,
+        "is_better": true,
+        "direction": "higher_better"
+      },
+      "avg_keyword_coverage": {
+        "metric_name": "Keyword Coverage",
+        "current_value": 0.0,
+        "rag_anything_value": 0.8074074074074075,
+        "improvement_percent": 0.0,
+        "is_better": true,
+        "direction": "higher_better"
+      },
+      "avg_citation_accuracy": {
+        "metric_name": "Citation Accuracy",
+        "current_value": 0.0,
+        "rag_anything_value": 1.0,
+        "improvement_percent": 0.0,
+        "is_better": true,
+        "direction": "higher_better"
+      },
+      "avg_chinese_processing": {
+        "metric_name": "Chinese Processing",
+        "current_value": 0.0,
+        "rag_anything_value": 0.7032343705089065,
+        "improvement_percent": 0.0,
+        "is_better": true,
+        "direction": "higher_better"
+      },
+      "avg_response_time": {
+        "metric_name": "Response Time",
+        "current_value": 0.0,
+        "rag_anything_value": 804.8946327633328,
+        "improvement_percent": 0.0,
+        "is_better": false,
+        "direction": "lower_better"
+      },
+      "p95_response_time": {
+        "metric_name": "P95 Response Time",
+        "current_value": 0.0,
+        "rag_anything_value": 808.7520599365234,
+        "improvement_percent": 0.0,
+        "is_better": false,
+        "direction": "lower_better"
+      },
+      "success_rate": {
+        "metric_name": "Success Rate",
+        "current_value": 0.0,
+        "rag_anything_value": 1.0,
+        "improvement_percent": 0.0,
+        "is_better": true,
+        "direction": "higher_better"
+      }
+    },
+    "improvement_summary": {
+      "metrics_improved": 5,
+      "metrics_degraded": 2,
+      "avg_improvement": 0.0,
+      "avg_degradation": 0.0,
+      "overall_score": 0.0
+    },
+    "statistical_significance": {},
+    "key_findings": [
+      "Performance is comparable between systems (0.0% difference)"
+    ]
+  },
+  "detailed_results": [
+    {
+      "note": "Detailed query-by-query results available in system-specific results",
+      "total_queries_tested": 9,
+      "test_completion_time": 25.5411479473114
+    }
+  ]
+}

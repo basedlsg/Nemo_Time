@@ -1,0 +1,104 @@
+{
+  "analysis_summary": {
+    "start_time": 1761637551.551394,
+    "analysis_categories": [
+      "deployment_steps",
+      "dependencies",
+      "configuration",
+      "failure_points",
+      "maintenance"
+    ]
+  },
+  "comparative_analysis": {
+    "metric_comparisons": {
+      "total_steps": {
+        "metric_name": "Total Deployment Steps",
+        "current_value": 12,
+        "rag_anything_value": 4,
+        "improvement_percent": 66.66666666666666,
+        "is_better": true
+      },
+      "manual_steps": {
+        "metric_name": "Manual Steps Required",
+        "current_value": 8,
+        "rag_anything_value": 1,
+        "improvement_percent": 87.5,
+        "is_better": true
+      },
+      "total_estimated_time_minutes": {
+        "metric_name": "Total Deployment Time",
+        "current_value": 235,
+        "rag_anything_value": 25,
+        "improvement_percent": 89.36170212765957,
+        "is_better": true
+      },
+      "high_risk_steps": {
+        "metric_name": "High Risk Steps",
+        "current_value": 4,
+        "rag_anything_value": 0,
+        "improvement_percent": 100.0,
+        "is_better": true
+      },
+      "deployment_success_rate_estimate": {
+        "metric_name": "Estimated Success Rate",
+        "current_value": 0.3,
+        "rag_anything_value": 0.97,
+        "improvement_percent": 223.33333333333334,
+        "is_better": true
+      }
+    },
+    "complexity_reduction": {
+      "steps_reduced": 8,
+      "time_saved_minutes": 210,
+      "dependencies_reduced": 9,
+      "iam_permissions_reduced": 9,
+      "config_files_reduced": 7,
+      "failure_points_reduced": 9
+    },
+    "risk_assessment": {
+      "current_system_risk_score": 100.0,
+      "rag_anything_risk_score": 21.5,
+      "risk_reduction_percent": 78.5
+    },
+    "time_savings": {
+      "deployment_time_saved_minutes": 210,
+      "deployment_time_saved_hours": 3.5,
+      "time_reduction_percent": 89.36170212765957
+    },
+    "key_improvements": [
+      "Deployment simplified by 8 steps (67% reduction)",
+      "Deployment time reduced by 3.5 hours (89% faster)",
+      "Service dependencies reduced by 9 (82% fewer)",
+      "IAM permissions simplified by 9 roles",
+      "Deployment risk reduced by 78%",
+      "Configuration files reduced by 7 (100% fewer)"
+    ]
+  },
+  "recommendations": {
+    "overall_recommendation": "STRONGLY RECOMMEND RAG-ANYTHING",
+    "deployment_strategy": "Full migration with parallel deployment",
+    "migration_approach": "Blue-green deployment with gradual traffic shift",
+    "risk_mitigation": [
+      "Implement comprehensive testing in staging environment",
+      "Prepare rollback procedures and automation",
+      "Train operations team on new deployment process",
+      "Set up monitoring and alerting for new system",
+      "Document troubleshooting procedures"
+    ],
+    "implementation_timeline": {
+      "preparation_phase": "1-2 weeks",
+      "pilot_deployment": "1 week",
+      "testing_validation": "1-2 weeks",
+      "production_migration": "1 week",
+      "total_timeline": "4-6 weeks"
+    },
+    "success_factors": [
+      "Simplified deployment process reduces human error",
+      "Fewer dependencies minimize integration issues",
+      "Container-based deployment improves consistency",
+      "Reduced IAM complexity decreases security risks",
+      "Built-in monitoring simplifies operations"
+    ]
+  },
+  "timestamp": 1761637551.5589252
+}

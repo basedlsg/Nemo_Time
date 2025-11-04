@@ -1,0 +1,267 @@
+{
+  "timestamp": "2025-10-28T09:09:41.306239",
+  "core_results": {
+    "sanitize": {
+      "available": true,
+      "success": true,
+      "input": "\u5206\u5e03\u5f0f\u5149\u4f0f\u53d1\u7535\u9879\u76ee\u5982\u4f55\u5907\u6848\uff1f",
+      "output": "\u5206\u5e03\u5f0f\u5149\u4f0f\u53d1\u7535\u9879\u76ee\u5982\u4f55\u5907\u6848\uff1f"
+    },
+    "composer": {
+      "available": true,
+      "success": true,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u5206\u5e03\u5f0f\u5149\u4f0f\u53d1\u7535\u9879\u76ee\u5e94\u5f53\u6309\u7167\u56fd\u5bb6\u6709\u5173\u89c4\u5b9a\u8fdb\u884c\u5907\u6848...\u3014\u300a\u5206\u5e03\u5f0f\u5149\u4f0f\u53d1\u7535\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    "cse": {
+      "available": true,
+      "success": true,
+      "urls_found": 0
+    },
+    "perplexity": {
+      "available": true,
+      "success": true,
+      "citations_count": 1,
+      "answer_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u5e7f\u4e1c / \u5149\u4f0f\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u9488\u5bf9gd\u5730\u533a\u7684solar\u9879\u76ee\uff0cgrid\u5e76\u7f51\u6d41\u7a0b\u4e00\u822c\u5305\u62ec\u5907\u6848\u7533\u8bf7\u3001\u6280\u672f\u8bc4\u4f30\u3001\u5e76\u7f51\u9a8c\u6536\u7b49\u5173\u952e\u6b65\u9aa4\uff0c\u5efa\u8bae\u63d0\u524d\u51c6\u5907\u5b8c\u6574\u7684\u8d44\u6599\u6e05\u5355\u3002\u3014\u300aGD\u7701solar\u9879\u76eegr..."
+    }
+  },
+  "query_results": [
+    {
+      "query_id": "solar_basic_filing",
+      "query": "\u5206\u5e03\u5f0f\u5149\u4f0f\u53d1\u7535\u9879\u76ee\u5982\u4f55\u5907\u6848\uff1f",
+      "province": "gd",
+      "asset": "solar",
+      "response_time": 6.818771362304688e-05,
+      "success": true,
+      "accuracy_score": 0.1515,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636egd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0csolar\u9879\u76ee\u9700\u8981...\u3014\u300agd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "wind_grid_connection",
+      "query": "\u98ce\u7535\u9879\u76ee\u5e76\u7f51\u9700\u8981\u4ec0\u4e48\u6761\u4ef6\uff1f",
+      "province": "sd",
+      "asset": "wind",
+      "response_time": 0.0002911090850830078,
+      "success": true,
+      "accuracy_score": 0.31666666666666665,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636esd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0cwind\u9879\u76ee\u9700\u8981...\u3014\u300asd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "coal_environmental",
+      "query": "\u7164\u7535\u9879\u76ee\u73af\u4fdd\u8981\u6c42\u6709\u54ea\u4e9b\uff1f",
+      "province": "nm",
+      "asset": "coal",
+      "response_time": 0.00041413307189941406,
+      "success": true,
+      "accuracy_score": 0.15,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636enm\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0ccoal\u9879\u76ee\u9700\u8981...\u3014\u300anm\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "guangdong_renewable_approval",
+      "query": "\u5e7f\u4e1c\u7701\u65b0\u80fd\u6e90\u9879\u76ee\u5ba1\u6279\u6d41\u7a0b\u5305\u62ec\u54ea\u4e9b\u6b65\u9aa4\uff1f",
+      "province": "gd",
+      "asset": "solar",
+      "response_time": 0.0005478858947753906,
+      "success": true,
+      "accuracy_score": 0.1515,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636egd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0csolar\u9879\u76ee\u9700\u8981...\u3014\u300agd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "grid_technical_standards",
+      "query": "\u7535\u7f51\u63a5\u5165\u6280\u672f\u6807\u51c6\u5bf9\u8bbe\u5907\u6709\u4ec0\u4e48\u8981\u6c42\uff1f",
+      "province": "gd",
+      "asset": "solar",
+      "response_time": 0.0004200935363769531,
+      "success": true,
+      "accuracy_score": 0.1515,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636egd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0csolar\u9879\u76ee\u9700\u8981...\u3014\u300agd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "solar_capacity_limits",
+      "query": "\u5206\u5e03\u5f0f\u5149\u4f0f\u88c5\u673a\u5bb9\u91cf\u6709\u4ec0\u4e48\u9650\u5236\uff1f",
+      "province": "gd",
+      "asset": "solar",
+      "response_time": 0.00042700767517089844,
+      "success": true,
+      "accuracy_score": 0.1515,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636egd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0csolar\u9879\u76ee\u9700\u8981...\u3014\u300agd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "wind_environmental_impact",
+      "query": "\u98ce\u7535\u9879\u76ee\u73af\u5883\u5f71\u54cd\u8bc4\u4ef7\u9700\u8981\u54ea\u4e9b\u6750\u6599\uff1f",
+      "province": "sd",
+      "asset": "wind",
+      "response_time": 0.0020322799682617188,
+      "success": true,
+      "accuracy_score": 0.15,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636esd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0cwind\u9879\u76ee\u9700\u8981...\u3014\u300asd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "coal_safety_requirements",
+      "query": "\u7164\u7535\u9879\u76ee\u5b89\u5168\u751f\u4ea7\u6709\u4ec0\u4e48\u89c4\u5b9a\uff1f",
+      "province": "nm",
+      "asset": "coal",
+      "response_time": 0.00017690658569335938,
+      "success": true,
+      "accuracy_score": 0.39999999999999997,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636enm\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0ccoal\u9879\u76ee\u9700\u8981...\u3014\u300anm\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "renewable_subsidy_policy",
+      "query": "\u53ef\u518d\u751f\u80fd\u6e90\u8865\u8d34\u653f\u7b56\u6700\u65b0\u53d8\u5316\u662f\u4ec0\u4e48\uff1f",
+      "province": "gd",
+      "asset": "solar",
+      "response_time": 0.00027108192443847656,
+      "success": true,
+      "accuracy_score": 0.1515,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636egd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0csolar\u9879\u76ee\u9700\u8981...\u3014\u300agd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "grid_connection_fees",
+      "query": "\u7535\u7f51\u63a5\u5165\u8d39\u7528\u5982\u4f55\u8ba1\u7b97\uff1f",
+      "province": "gd",
+      "asset": "solar",
+      "response_time": 0.0003609657287597656,
+      "success": true,
+      "accuracy_score": 0.1515,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636egd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0csolar\u9879\u76ee\u9700\u8981...\u3014\u300agd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "shandong_wind_planning",
+      "query": "\u5c71\u4e1c\u7701\u98ce\u7535\u53d1\u5c55\u89c4\u5212\u6709\u54ea\u4e9b\u91cd\u70b9\u533a\u57df\uff1f",
+      "province": "sd",
+      "asset": "wind",
+      "response_time": 0.00042700767517089844,
+      "success": true,
+      "accuracy_score": 0.15,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636esd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0cwind\u9879\u76ee\u9700\u8981...\u3014\u300asd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "coal_emission_monitoring",
+      "query": "\u7164\u7535\u5382\u6392\u653e\u76d1\u6d4b\u8981\u6c42\u662f\u4ec0\u4e48\uff1f",
+      "province": "nm",
+      "asset": "coal",
+      "response_time": 0.0003521442413330078,
+      "success": true,
+      "accuracy_score": 0.15,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636enm\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0ccoal\u9879\u76ee\u9700\u8981...\u3014\u300anm\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "distributed_solar_metering",
+      "query": "\u5206\u5e03\u5f0f\u5149\u4f0f\u8ba1\u91cf\u88c5\u7f6e\u5b89\u88c5\u6709\u4ec0\u4e48\u6807\u51c6\uff1f",
+      "province": "gd",
+      "asset": "solar",
+      "response_time": 0.0004520416259765625,
+      "success": true,
+      "accuracy_score": 0.1515,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636egd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0csolar\u9879\u76ee\u9700\u8981...\u3014\u300agd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "wind_noise_standards",
+      "query": "\u98ce\u7535\u9879\u76ee\u566a\u58f0\u63a7\u5236\u6807\u51c6\u662f\u591a\u5c11\uff1f",
+      "province": "sd",
+      "asset": "wind",
+      "response_time": 0.0004649162292480469,
+      "success": true,
+      "accuracy_score": 0.15,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636esd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0cwind\u9879\u76ee\u9700\u8981...\u3014\u300asd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "coal_water_usage",
+      "query": "\u7164\u7535\u9879\u76ee\u7528\u6c34\u6307\u6807\u6709\u4ec0\u4e48\u9650\u5236\uff1f",
+      "province": "nm",
+      "asset": "coal",
+      "response_time": 0.0004658699035644531,
+      "success": true,
+      "accuracy_score": 0.15,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636enm\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0ccoal\u9879\u76ee\u9700\u8981...\u3014\u300anm\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "solar_land_use_policy",
+      "query": "\u5149\u4f0f\u9879\u76ee\u571f\u5730\u4f7f\u7528\u653f\u7b56\u6709\u54ea\u4e9b\u53d8\u5316\uff1f",
+      "province": "gd",
+      "asset": "solar",
+      "response_time": 0.0004112720489501953,
+      "success": true,
+      "accuracy_score": 0.4015,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636egd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0csolar\u9879\u76ee\u9700\u8981...\u3014\u300agd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "offshore_wind_permits",
+      "query": "\u6d77\u4e0a\u98ce\u7535\u9879\u76ee\u9700\u8981\u54ea\u4e9b\u8bb8\u53ef\u8bc1\uff1f",
+      "province": "sd",
+      "asset": "wind",
+      "response_time": 0.00017118453979492188,
+      "success": true,
+      "accuracy_score": 0.15,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636esd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0cwind\u9879\u76ee\u9700\u8981...\u3014\u300asd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "coal_ash_disposal",
+      "query": "\u7164\u7535\u5382\u7c89\u7164\u7070\u5904\u7f6e\u6709\u4ec0\u4e48\u89c4\u5b9a\uff1f",
+      "province": "nm",
+      "asset": "coal",
+      "response_time": 0.00013589859008789062,
+      "success": true,
+      "accuracy_score": 0.15,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636enm\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0ccoal\u9879\u76ee\u9700\u8981...\u3014\u300anm\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "energy_storage_integration",
+      "query": "\u50a8\u80fd\u7cfb\u7edf\u4e0e\u65b0\u80fd\u6e90\u9879\u76ee\u5982\u4f55\u914d\u5957\uff1f",
+      "province": "gd",
+      "asset": "solar",
+      "response_time": 0.0001659393310546875,
+      "success": true,
+      "accuracy_score": 0.1515,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636egd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0csolar\u9879\u76ee\u9700\u8981...\u3014\u300agd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    },
+    {
+      "query_id": "cross_provincial_transmission",
+      "query": "\u8de8\u7701\u7535\u529b\u8f93\u9001\u9879\u76ee\u5ba1\u6279\u7a0b\u5e8f\u662f\u4ec0\u4e48\uff1f",
+      "province": "gd",
+      "asset": "solar",
+      "response_time": 0.0002627372741699219,
+      "success": true,
+      "accuracy_score": 0.1515,
+      "response_preview": "\u5e76\u7f51\u8981\u70b9\uff08\u7efc\u5408 / \u80fd\u6e90\uff09\n- \u76f8\u5173\u89c4\u5b9a\uff1a\n \u2022 \u6839\u636egd\u7701\u7684\u76f8\u5173\u653f\u7b56\uff0csolar\u9879\u76ee\u9700\u8981...\u3014\u300agd\u7701\u80fd\u6e90\u7ba1\u7406\u529e\u6cd5\u300b\u3015..."
+    }
+  ],
+  "assessment": {
+    "overall_readiness": "READY_WITH_CONDITIONS",
+    "go_no_go_decision": "CONDITIONAL_GO",
+    "readiness_score": 0.7710208333333334,
+    "readiness_factors": {
+      "core_components": 1.0,
+      "query_success_rate": 1.0,
+      "accuracy_score": 0.18408333333333332,
+      "response_time": 1.0,
+      "perplexity_integration": 0.5
+    },
+    "metrics": {
+      "total_queries": 20,
+      "successful_queries": 20,
+      "success_rate": 1.0,
+      "average_accuracy": 0.18408333333333332,
+      "average_response_time": 0.00041593313217163085,
+      "core_success_rate": 1.0,
+      "perplexity_available": true
+    },
+    "critical_issues": [
+      "Average accuracy too low: 0.18 (target: >0.6)"
+    ],
+    "warnings": [
+      "Accuracy could be improved: 0.18"
+    ],
+    "recommendations": [
+      "Improve system reliability and performance before full rollout",
+      "Address all critical issues before proceeding with deployment",
+      "Implement comprehensive monitoring and alerting",
+      "Plan for gradual traffic migration with rollback capability",
+      "Establish clear operational procedures and team training",
+      "Set up automated backup and recovery procedures",
+      "Conduct load testing under production conditions",
+      "Implement proper error handling and logging",
+      "Set up health check endpoints for monitoring"
+    ]
+  }
+}

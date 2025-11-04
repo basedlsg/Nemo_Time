@@ -1,0 +1,276 @@
+{
+  "tier_1_simple": [
+    {
+      "query_id": "simple_solar_filing",
+      "query": "光伏项目如何备案？",
+      "difficulty": "Simple",
+      "complexity_factors": [
+        "Basic terminology",
+        "Single concept",
+        "Common procedure"
+      ],
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid",
+      "response_time": 0.14606094360351562,
+      "raw_response": {
+        "error": true,
+        "message": "No module named 'functions_framework'",
+        "system_available": false
+      },
+      "analysis": {
+        "system_responded": false,
+        "has_citations": false,
+        "citation_count": 0,
+        "has_real_urls": false,
+        "government_domains": false,
+        "response_mode": "unknown",
+        "has_refusal": false,
+        "response_length": 0,
+        "contains_unknown_doc": false,
+        "real_document_codes": false,
+        "specific_regulations": false
+      },
+      "timestamp": "2025-10-28T23:27:42.913877"
+    },
+    {
+      "query_id": "simple_wind_connection",
+      "query": "风电项目怎么并网？",
+      "difficulty": "Simple",
+      "complexity_factors": [
+        "Basic terminology",
+        "Single concept",
+        "Standard process"
+      ],
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid",
+      "response_time": 0.00038623809814453125,
+      "raw_response": {
+        "error": true,
+        "message": "No module named 'functions_framework'",
+        "system_available": false
+      },
+      "analysis": {
+        "system_responded": false,
+        "has_citations": false,
+        "citation_count": 0,
+        "has_real_urls": false,
+        "government_domains": false,
+        "response_mode": "unknown",
+        "has_refusal": false,
+        "response_length": 0,
+        "contains_unknown_doc": false,
+        "real_document_codes": false,
+        "specific_regulations": false
+      },
+      "timestamp": "2025-10-28T23:27:42.916044"
+    }
+  ],
+  "tier_2_moderate": [
+    {
+      "query_id": "moderate_solar_capacity",
+      "query": "广东省分布式光伏发电项目装机容量限制标准是什么？",
+      "difficulty": "Moderate",
+      "complexity_factors": [
+        "Province-specific",
+        "Technical specifications",
+        "Multiple criteria"
+      ],
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid",
+      "response_time": 0.00023508071899414062,
+      "raw_response": {
+        "error": true,
+        "message": "No module named 'functions_framework'",
+        "system_available": false
+      },
+      "analysis": {
+        "system_responded": false,
+        "has_citations": false,
+        "citation_count": 0,
+        "has_real_urls": false,
+        "government_domains": false,
+        "response_mode": "unknown",
+        "has_refusal": false,
+        "response_length": 0,
+        "contains_unknown_doc": false,
+        "real_document_codes": false,
+        "specific_regulations": false
+      },
+      "timestamp": "2025-10-28T23:27:42.916334"
+    },
+    {
+      "query_id": "moderate_coal_emissions",
+      "query": "内蒙古煤电项目超低排放改造技术要求包括哪些方面？",
+      "difficulty": "Moderate",
+      "complexity_factors": [
+        "Province-specific",
+        "Technical requirements",
+        "Environmental standards"
+      ],
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid",
+      "response_time": 0.00022792816162109375,
+      "raw_response": {
+        "error": true,
+        "message": "No module named 'functions_framework'",
+        "system_available": false
+      },
+      "analysis": {
+        "system_responded": false,
+        "has_citations": false,
+        "citation_count": 0,
+        "has_real_urls": false,
+        "government_domains": false,
+        "response_mode": "unknown",
+        "has_refusal": false,
+        "response_length": 0,
+        "contains_unknown_doc": false,
+        "real_document_codes": false,
+        "specific_regulations": false
+      },
+      "timestamp": "2025-10-28T23:27:42.916597"
+    }
+  ],
+  "tier_3_complex": [
+    {
+      "query_id": "complex_multi_province",
+      "query": "跨省风电项目在山东和江苏两省之间的电力输送并网审批流程中，涉及哪些监管部门的协调机制？",
+      "difficulty": "Complex",
+      "complexity_factors": [
+        "Multi-province coordination",
+        "Regulatory complexity",
+        "Inter-departmental processes"
+      ],
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid",
+      "response_time": 0.0002090930938720703,
+      "raw_response": {
+        "error": true,
+        "message": "No module named 'functions_framework'",
+        "system_available": false
+      },
+      "analysis": {
+        "system_responded": false,
+        "has_citations": false,
+        "citation_count": 0,
+        "has_real_urls": false,
+        "government_domains": false,
+        "response_mode": "unknown",
+        "has_refusal": false,
+        "response_length": 0,
+        "contains_unknown_doc": false,
+        "real_document_codes": false,
+        "specific_regulations": false
+      },
+      "timestamp": "2025-10-28T23:27:42.916849"
+    },
+    {
+      "query_id": "complex_policy_integration",
+      "query": "广东省海上风电项目在符合国家海洋功能区划的前提下，如何与渔业权益保护、航道安全管理相协调？",
+      "difficulty": "Complex",
+      "complexity_factors": [
+        "Multi-sector coordination",
+        "Policy integration",
+        "Stakeholder management"
+      ],
+      "province": "gd",
+      "asset": "wind",
+      "doc_class": "grid",
+      "response_time": 0.00020194053649902344,
+      "raw_response": {
+        "error": true,
+        "message": "No module named 'functions_framework'",
+        "system_available": false
+      },
+      "analysis": {
+        "system_responded": false,
+        "has_citations": false,
+        "citation_count": 0,
+        "has_real_urls": false,
+        "government_domains": false,
+        "response_mode": "unknown",
+        "has_refusal": false,
+        "response_length": 0,
+        "contains_unknown_doc": false,
+        "real_document_codes": false,
+        "specific_regulations": false
+      },
+      "timestamp": "2025-10-28T23:27:42.917085"
+    }
+  ],
+  "tier_4_very_difficult": [
+    {
+      "query_id": "very_difficult_comprehensive",
+      "query": "在碳达峰碳中和目标约束下，内蒙古自治区煤电项目实施灵活性改造时，如何平衡电力系统调峰需求、环保超低排放要求、以及可再生能源消纳政策的多重约束条件？",
+      "difficulty": "Very Difficult",
+      "complexity_factors": [
+        "Policy integration",
+        "Multi-objective optimization",
+        "System-level thinking",
+        "Future planning"
+      ],
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid",
+      "response_time": 0.00019788742065429688,
+      "raw_response": {
+        "error": true,
+        "message": "No module named 'functions_framework'",
+        "system_available": false
+      },
+      "analysis": {
+        "system_responded": false,
+        "has_citations": false,
+        "citation_count": 0,
+        "has_real_urls": false,
+        "government_domains": false,
+        "response_mode": "unknown",
+        "has_refusal": false,
+        "response_length": 0,
+        "contains_unknown_doc": false,
+        "real_document_codes": false,
+        "specific_regulations": false
+      },
+      "timestamp": "2025-10-28T23:27:42.917325"
+    },
+    {
+      "query_id": "very_difficult_regulatory_evolution",
+      "query": "考虑到分布式光伏发电技术快速发展和电力市场化改革深入推进，广东省现行的分布式光伏项目管理政策框架在未来5年内可能面临哪些调整，特别是在电价机制、并网标准、和储能配置要求方面？",
+      "difficulty": "Very Difficult",
+      "complexity_factors": [
+        "Future policy prediction",
+        "Technology evolution",
+        "Market dynamics",
+        "Regulatory anticipation"
+      ],
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid",
+      "response_time": 0.00019788742065429688,
+      "raw_response": {
+        "error": true,
+        "message": "No module named 'functions_framework'",
+        "system_available": false
+      },
+      "analysis": {
+        "system_responded": false,
+        "has_citations": false,
+        "citation_count": 0,
+        "has_real_urls": false,
+        "government_domains": false,
+        "response_mode": "unknown",
+        "has_refusal": false,
+        "response_length": 0,
+        "contains_unknown_doc": false,
+        "real_document_codes": false,
+        "specific_regulations": false
+      },
+      "timestamp": "2025-10-28T23:27:42.917558"
+    }
+  ]
+}

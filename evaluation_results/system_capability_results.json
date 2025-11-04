@@ -1,0 +1,290 @@
+{
+  "tier_1_simple": [
+    {
+      "query_id": "simple_solar_filing",
+      "query": "光伏项目如何备案？",
+      "difficulty": "Simple",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid",
+      "total_time": 228.43551993370056,
+      "discovery_test": {
+        "method": "cse_discovery",
+        "success": false,
+        "url_count": 0,
+        "urls": [],
+        "discovery_time": 224.32026386260986,
+        "government_domains": 0
+      },
+      "processing_test": {
+        "method": "query_processing",
+        "success": true,
+        "original_query": "光伏项目如何备案？",
+        "normalized_query": "光伏项目如何备案？",
+        "processing_applied": false
+      },
+      "composition_test": {
+        "method": "response_composition",
+        "success": false,
+        "response": {
+          "answer_zh": "",
+          "citations": []
+        },
+        "composition_time": 0.0029141902923583984,
+        "has_citations": false
+      },
+      "timestamp": "2025-10-28T23:35:47.386534"
+    },
+    {
+      "query_id": "simple_wind_connection",
+      "query": "风电项目怎么并网？",
+      "difficulty": "Simple",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid",
+      "total_time": 221.2948498725891,
+      "discovery_test": {
+        "method": "cse_discovery",
+        "success": false,
+        "url_count": 0,
+        "urls": [],
+        "discovery_time": 216.74983191490173,
+        "government_domains": 0
+      },
+      "processing_test": {
+        "method": "query_processing",
+        "success": true,
+        "original_query": "风电项目怎么并网？",
+        "normalized_query": "风电项目怎么并网？",
+        "processing_applied": false
+      },
+      "composition_test": {
+        "method": "response_composition",
+        "success": false,
+        "response": {
+          "answer_zh": "",
+          "citations": []
+        },
+        "composition_time": 6.985664367675781e-05,
+        "has_citations": false
+      },
+      "timestamp": "2025-10-28T23:39:28.685629"
+    }
+  ],
+  "tier_2_moderate": [
+    {
+      "query_id": "moderate_solar_capacity",
+      "query": "广东省分布式光伏发电项目装机容量限制标准是什么？",
+      "difficulty": "Moderate",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid",
+      "total_time": 221.7158169746399,
+      "discovery_test": {
+        "method": "cse_discovery",
+        "success": false,
+        "url_count": 0,
+        "urls": [],
+        "discovery_time": 216.30561590194702,
+        "government_domains": 0
+      },
+      "processing_test": {
+        "method": "query_processing",
+        "success": true,
+        "original_query": "广东省分布式光伏发电项目装机容量限制标准是什么？",
+        "normalized_query": "广东省分布式光伏发电项目装机容量限制标准是什么？",
+        "processing_applied": false
+      },
+      "composition_test": {
+        "method": "response_composition",
+        "success": false,
+        "response": {
+          "answer_zh": "",
+          "citations": []
+        },
+        "composition_time": 7.510185241699219e-05,
+        "has_citations": false
+      },
+      "timestamp": "2025-10-28T23:43:10.401723"
+    },
+    {
+      "query_id": "moderate_coal_emissions",
+      "query": "内蒙古煤电项目超低排放改造技术要求包括哪些方面？",
+      "difficulty": "Moderate",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid",
+      "total_time": 194.94841861724854,
+      "discovery_test": {
+        "method": "cse_discovery",
+        "success": false,
+        "url_count": 0,
+        "urls": [],
+        "discovery_time": 183.54091811180115,
+        "government_domains": 0
+      },
+      "processing_test": {
+        "method": "query_processing",
+        "success": true,
+        "original_query": "内蒙古煤电项目超低排放改造技术要求包括哪些方面？",
+        "normalized_query": "内蒙古煤电项目超低排放改造技术要求包括哪些方面？",
+        "processing_applied": false
+      },
+      "composition_test": {
+        "method": "response_composition",
+        "success": false,
+        "response": {
+          "answer_zh": "",
+          "citations": []
+        },
+        "composition_time": 5.030632019042969e-05,
+        "has_citations": false
+      },
+      "timestamp": "2025-10-28T23:46:25.350268"
+    }
+  ],
+  "tier_3_complex": [
+    {
+      "query_id": "complex_multi_province",
+      "query": "跨省风电项目在山东和江苏两省之间的电力输送并网审批流程中，涉及哪些监管部门的协调机制？",
+      "difficulty": "Complex",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid",
+      "total_time": 153.97727417945862,
+      "discovery_test": {
+        "method": "cse_discovery",
+        "success": false,
+        "url_count": 0,
+        "urls": [],
+        "discovery_time": 146.60329794883728,
+        "government_domains": 0
+      },
+      "processing_test": {
+        "method": "query_processing",
+        "success": true,
+        "original_query": "跨省风电项目在山东和江苏两省之间的电力输送并网审批流程中，涉及哪些监管部门的协调机制？",
+        "normalized_query": "跨省风电项目在山东和江苏两省之间的电力输送并网审批流程中，涉及哪些监管部门的协调机制？",
+        "processing_applied": false
+      },
+      "composition_test": {
+        "method": "response_composition",
+        "success": false,
+        "response": {
+          "answer_zh": "",
+          "citations": []
+        },
+        "composition_time": 4.1961669921875e-05,
+        "has_citations": false
+      },
+      "timestamp": "2025-10-28T23:48:59.327707"
+    },
+    {
+      "query_id": "complex_policy_integration",
+      "query": "广东省海上风电项目在符合国家海洋功能区划的前提下，如何与渔业权益保护、航道安全管理相协调？",
+      "difficulty": "Complex",
+      "province": "gd",
+      "asset": "wind",
+      "doc_class": "grid",
+      "total_time": 164.9498269557953,
+      "discovery_test": {
+        "method": "cse_discovery",
+        "success": false,
+        "url_count": 0,
+        "urls": [],
+        "discovery_time": 159.05106711387634,
+        "government_domains": 0
+      },
+      "processing_test": {
+        "method": "query_processing",
+        "success": true,
+        "original_query": "广东省海上风电项目在符合国家海洋功能区划的前提下，如何与渔业权益保护、航道安全管理相协调？",
+        "normalized_query": "广东省海上风电项目在符合国家海洋功能区划的前提下，如何与渔业权益保护、航道安全管理相协调？",
+        "processing_applied": false
+      },
+      "composition_test": {
+        "method": "response_composition",
+        "success": false,
+        "response": {
+          "answer_zh": "",
+          "citations": []
+        },
+        "composition_time": 4.38690185546875e-05,
+        "has_citations": false
+      },
+      "timestamp": "2025-10-28T23:51:44.277702"
+    }
+  ],
+  "tier_4_very_difficult": [
+    {
+      "query_id": "very_difficult_comprehensive",
+      "query": "在碳达峰碳中和目标约束下，内蒙古自治区煤电项目实施灵活性改造时，如何平衡电力系统调峰需求、环保超低排放要求、以及可再生能源消纳政策的多重约束条件？",
+      "difficulty": "Very Difficult",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid",
+      "total_time": 149.76822304725647,
+      "discovery_test": {
+        "method": "cse_discovery",
+        "success": false,
+        "url_count": 0,
+        "urls": [],
+        "discovery_time": 145.1939730644226,
+        "government_domains": 0
+      },
+      "processing_test": {
+        "method": "query_processing",
+        "success": true,
+        "original_query": "在碳达峰碳中和目标约束下，内蒙古自治区煤电项目实施灵活性改造时，如何平衡电力系统调峰需求、环保超低排放要求、以及可再生能源消纳政策的多重约束条件？",
+        "normalized_query": "在碳达峰碳中和目标约束下，内蒙古自治区煤电项目实施灵活性改造时，如何平衡电力系统调峰需求、环保超低排放要求、以及可再生能源消纳政策的多重约束条件？",
+        "processing_applied": false
+      },
+      "composition_test": {
+        "method": "response_composition",
+        "success": false,
+        "response": {
+          "answer_zh": "",
+          "citations": []
+        },
+        "composition_time": 3.0994415283203125e-05,
+        "has_citations": false
+      },
+      "timestamp": "2025-10-28T23:54:14.046217"
+    },
+    {
+      "query_id": "very_difficult_regulatory_evolution",
+      "query": "考虑到分布式光伏发电技术快速发展和电力市场化改革深入推进，广东省现行的分布式光伏项目管理政策框架在未来5年内可能面临哪些调整，特别是在电价机制、并网标准、和储能配置要求方面？",
+      "difficulty": "Very Difficult",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid",
+      "total_time": 165.32296133041382,
+      "discovery_test": {
+        "method": "cse_discovery",
+        "success": false,
+        "url_count": 0,
+        "urls": [],
+        "discovery_time": 161.98666310310364,
+        "government_domains": 0
+      },
+      "processing_test": {
+        "method": "query_processing",
+        "success": true,
+        "original_query": "考虑到分布式光伏发电技术快速发展和电力市场化改革深入推进，广东省现行的分布式光伏项目管理政策框架在未来5年内可能面临哪些调整，特别是在电价机制、并网标准、和储能配置要求方面？",
+        "normalized_query": "考虑到分布式光伏发电技术快速发展和电力市场化改革深入推进，广东省现行的分布式光伏项目管理政策框架在未来5年内可能面临哪些调整，特别是在电价机制、并网标准、和储能配置要求方面？",
+        "processing_applied": false
+      },
+      "composition_test": {
+        "method": "response_composition",
+        "success": false,
+        "response": {
+          "answer_zh": "",
+          "citations": []
+        },
+        "composition_time": 2.9087066650390625e-05,
+        "has_citations": false
+      },
+      "timestamp": "2025-10-28T23:56:59.369395"
+    }
+  ]
+}

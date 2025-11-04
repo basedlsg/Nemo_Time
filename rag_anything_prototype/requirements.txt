@@ -1,0 +1,42 @@
+# RAG-Anything Prototype Requirements
+# Core RAG-Anything framework and dependencies
+
+# RAG-Anything framework (install from source)
+# git+https://github.com/HKUDS/RAG-Anything.git
+
+# Core dependencies for RAG-Anything
+lightrag>=0.0.1
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Document processing
+python-docx>=0.8.11
+PyPDF2>=3.0.0
+pdfplumber>=0.7.0
+
+# Chinese text processing
+jieba>=0.42.1
+zhconv>=1.4.3
+
+# Google Cloud dependencies
+google-cloud-storage>=2.10.0
+google-cloud-documentai>=2.20.0
+
+# OpenAI for LLM and embeddings
+openai>=1.0.0
+
+# Async support
+aiofiles>=23.0.0
+asyncio-throttle>=1.0.2
+
+# Data handling
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Utilities
+tqdm>=4.65.0
+requests>=2.31.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0

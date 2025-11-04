@@ -1,0 +1,22 @@
+displayName: "Nemo Query Function Error Rate"
+documentation:
+  content: "Alert when query function error rate exceeds 2%"
+  mimeType: "text/markdown"
+conditions:
+- displayName: "Query function error rate > 2%"
+  conditionThreshold:
+    filter: 'resource.type="cloud_function" resource.label.function_name="nemo-query"'
+    comparison: COMPARISON_GREATER_THAN
+    thresholdValue: 0.02
+    duration: 300s
+    aggregations:
+    - alignmentPeriod: 300s
+      perSeriesAligner: ALIGN_RATE
+      crossSeriesReducer: REDUCE_MEAN
+      groupByFields:
+      - resource.label.function_name
+combiner: OR
+enabled: true
+notificationChannels: []
+alertStrategy:
+  autoClose: 86400s

@@ -1,0 +1,47 @@
+# Nemo Compliance MVP Environment Configuration
+# This file defines environment variables for all Cloud Functions
+
+# Google Cloud Project Configuration
+GOOGLE_CLOUD_PROJECT: "your-project-id"
+REGION: "asia-east2"  # Hong Kong region for Chinese regulatory data
+
+# Vertex AI Configuration
+VERTEX_INDEX_ID: "your-vector-index-id"
+VERTEX_ENDPOINT_ID: "your-vector-endpoint-id"
+
+# Google Cloud Storage Configuration
+BUCKET_RAW: "your-project-nemo-raw"
+BUCKET_CLEAN: "your-project-nemo-clean"
+
+# Document AI Configuration
+DOCAI_PROCESSOR_ID: "your-docai-processor-id"
+DOCAI_PROCESSOR_VERSION: "rc"  # Use release candidate version
+
+# Feature Toggles
+RERANK: "false"  # Disable Gemini reranking by default for performance
+
+# Security Configuration
+INGEST_TOKEN: "your-secure-ingest-token"  # Store in Secret Manager
+
+# Logging Configuration
+LOG_LEVEL: "INFO"
+COMMIT_HASH: "unknown"  # Will be set during deployment
+
+# Domain Allowlist for Document Discovery
+ALLOWLIST_DOMAINS: "gd.gov.cn,sd.gov.cn,nmg.gov.cn"
+
+# Rate Limiting Configuration
+MAX_CONCURRENT_REQUESTS: "100"
+REQUEST_TIMEOUT_SECONDS: "30"
+
+# Embedding Configuration
+EMBEDDING_MODEL: "text-embedding-004"
+EMBEDDING_BATCH_SIZE: "100"
+
+# Chunking Configuration
+CHUNK_SIZE_TOKENS: "800"
+CHUNK_OVERLAP_TOKENS: "100"
+
+# Search Configuration
+DEFAULT_TOP_K: "12"
+MAX_RESULTS_RETURNED: "5"

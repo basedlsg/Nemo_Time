@@ -1,0 +1,271 @@
+{
+  "evaluation_summary": {
+    "timestamp": 1761637849.38408,
+    "total_metrics": 20,
+    "current_system_results": 15,
+    "rag_anything_results": 20
+  },
+  "metric_comparisons": {
+    "response_time_p95": {
+      "metric_type": "performance",
+      "target_value": 2000.0,
+      "current_value": 1028.3632278442383,
+      "rag_anything_value": 1600.0,
+      "improvement_percent": -55.587049077404885,
+      "meets_target": {
+        "current": true,
+        "rag_anything": true
+      }
+    },
+    "document_processing_speed": {
+      "metric_type": "performance",
+      "target_value": 10.0,
+      "current_value": 5.0,
+      "rag_anything_value": 12.0,
+      "improvement_percent": 140.0,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "concurrent_query_capacity": {
+      "metric_type": "performance",
+      "target_value": 50.0,
+      "current_value": 20.0,
+      "rag_anything_value": 60.0,
+      "improvement_percent": 200.0,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "memory_efficiency": {
+      "metric_type": "performance",
+      "target_value": 50.0,
+      "current_value": 100.0,
+      "rag_anything_value": 40.0,
+      "improvement_percent": 60.0,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "cold_start_time": {
+      "metric_type": "performance",
+      "target_value": 30.0,
+      "current_value": 120.0,
+      "rag_anything_value": 25.0,
+      "improvement_percent": 79.16666666666666,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "deployment_steps_count": {
+      "metric_type": "complexity",
+      "target_value": 5.0,
+      "current_value": 12.0,
+      "rag_anything_value": 4.0,
+      "improvement_percent": 66.66666666666666,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "iam_permissions_required": {
+      "metric_type": "complexity",
+      "target_value": 3.0,
+      "current_value": 8.0,
+      "rag_anything_value": 2.0,
+      "improvement_percent": 75.0,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "service_dependencies_count": {
+      "metric_type": "complexity",
+      "target_value": 2.0,
+      "current_value": 8.0,
+      "rag_anything_value": 2.0,
+      "improvement_percent": 75.0,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "configuration_files_count": {
+      "metric_type": "complexity",
+      "target_value": 3.0,
+      "current_value": 7.0,
+      "rag_anything_value": 2.0,
+      "improvement_percent": 71.42857142857143,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "deployment_success_rate": {
+      "metric_type": "complexity",
+      "target_value": 0.95,
+      "current_value": 0.6,
+      "rag_anything_value": 0.95,
+      "improvement_percent": 58.333333333333336,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "monitoring_setup_complexity": {
+      "metric_type": "operational",
+      "target_value": 3.0,
+      "current_value": 8.0,
+      "rag_anything_value": 3.0,
+      "improvement_percent": 62.5,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "troubleshooting_time_mttr": {
+      "metric_type": "operational",
+      "target_value": 30.0,
+      "current_value": 120.0,
+      "rag_anything_value": 25.0,
+      "improvement_percent": 79.16666666666666,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "maintenance_tasks_per_month": {
+      "metric_type": "operational",
+      "target_value": 2.0,
+      "current_value": 8.0,
+      "rag_anything_value": 2.0,
+      "improvement_percent": 75.0,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "error_message_clarity": {
+      "metric_type": "operational",
+      "target_value": 8.0,
+      "current_value": 4.0,
+      "rag_anything_value": 8.0,
+      "improvement_percent": 100.0,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    },
+    "documentation_completeness": {
+      "metric_type": "operational",
+      "target_value": 9.0,
+      "current_value": 6.0,
+      "rag_anything_value": 9.0,
+      "improvement_percent": 50.0,
+      "meets_target": {
+        "current": false,
+        "rag_anything": true
+      }
+    }
+  },
+  "category_scores": {
+    "accuracy": {
+      "current_score": 0.0,
+      "rag_anything_score": 0.9841286549707602,
+      "improvement": 0
+    },
+    "performance": {
+      "current_score": 0.6092544841766357,
+      "rag_anything_score": 0.8933333333333333,
+      "improvement": 46.627289012178544
+    },
+    "complexity": {
+      "current_score": 0.9263157894736842,
+      "rag_anything_score": 0.8333333333333335,
+      "improvement": -10.037878787878771
+    },
+    "operational": {
+      "current_score": 0.8749999999999999,
+      "rag_anything_score": 0.9583333333333335,
+      "improvement": 9.523809523809556
+    }
+  },
+  "recommendations": {
+    "overall_recommendation": "RECOMMEND",
+    "key_benefits": [
+      {
+        "metric": "document_processing_speed",
+        "improvement": "140.0%"
+      },
+      {
+        "metric": "concurrent_query_capacity",
+        "improvement": "200.0%"
+      },
+      {
+        "metric": "memory_efficiency",
+        "improvement": "60.0%"
+      },
+      {
+        "metric": "cold_start_time",
+        "improvement": "79.2%"
+      },
+      {
+        "metric": "deployment_steps_count",
+        "improvement": "66.7%"
+      },
+      {
+        "metric": "iam_permissions_required",
+        "improvement": "75.0%"
+      },
+      {
+        "metric": "service_dependencies_count",
+        "improvement": "75.0%"
+      },
+      {
+        "metric": "configuration_files_count",
+        "improvement": "71.4%"
+      },
+      {
+        "metric": "deployment_success_rate",
+        "improvement": "58.3%"
+      },
+      {
+        "metric": "monitoring_setup_complexity",
+        "improvement": "62.5%"
+      },
+      {
+        "metric": "troubleshooting_time_mttr",
+        "improvement": "79.2%"
+      },
+      {
+        "metric": "maintenance_tasks_per_month",
+        "improvement": "75.0%"
+      },
+      {
+        "metric": "error_message_clarity",
+        "improvement": "100.0%"
+      },
+      {
+        "metric": "documentation_completeness",
+        "improvement": "50.0%"
+      }
+    ],
+    "risk_areas": [
+      {
+        "metric": "response_time_p95",
+        "degradation": "55.6%"
+      }
+    ],
+    "migration_priority": "MEDIUM",
+    "next_steps": [
+      "Proceed with prototype development",
+      "Conduct detailed migration planning",
+      "Set up parallel testing environment",
+      "Develop rollback procedures"
+    ]
+  }
+}

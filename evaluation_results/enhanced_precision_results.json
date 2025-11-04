@@ -1,0 +1,1562 @@
+[
+  {
+    "query_data": {
+      "id": "very_easy_solar_basic",
+      "query": "什么是光伏？",
+      "tier": "Very Easy",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《光伏发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《光伏发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/solar_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "广东省项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.gd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "光伏发电技术标准",
+          "url": "http://nea.gov.cn/standard/solar_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/solar_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "什么是光伏？ 广东省 光伏发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 0.0009407997131347656
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "very_easy_wind_basic",
+      "query": "风电是什么？",
+      "tier": "Very Easy",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《风力发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《风力发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/wind_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "山东省项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.sd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "风力发电技术标准",
+          "url": "http://nea.gov.cn/standard/wind_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/wind_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "风电是什么？ 山东省 风力发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 5.2928924560546875e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "very_easy_coal_basic",
+      "query": "煤电项目是什么？",
+      "tier": "Very Easy",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据内蒙古自治区煤电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《煤电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《煤电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局煤电项目管理办法",
+          "url": "http://nea.gov.cn/policy/coal_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/coal_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "内蒙古自治区项目备案管理规定",
+          "url": "http://drc.nm.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.nm.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "煤电技术标准",
+          "url": "http://nea.gov.cn/standard/coal_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/coal_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "煤电项目核准管理，超低排放改造技术要求",
+        "enhanced_query": "煤电项目是什么？ 内蒙古自治区 煤电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 3.1948089599609375e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "very_easy_filing_basic",
+      "query": "项目备案是什么意思？",
+      "tier": "Very Easy",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《光伏发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《光伏发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/solar_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "广东省项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.gd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "光伏发电技术标准",
+          "url": "http://nea.gov.cn/standard/solar_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/solar_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "项目备案是什么意思？ 广东省 光伏发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.621246337890625e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "easy_solar_process",
+      "query": "光伏项目备案需要什么材料？",
+      "tier": "Easy",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《光伏发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《光伏发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/solar_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "广东省项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.gd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "光伏发电技术标准",
+          "url": "http://nea.gov.cn/standard/solar_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/solar_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "光伏项目备案需要什么材料？ 广东省 光伏发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.5020370483398438e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "easy_wind_grid",
+      "query": "风电项目如何接入电网？",
+      "tier": "Easy",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《风力发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《风力发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/wind_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "山东省项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.sd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "风力发电技术标准",
+          "url": "http://nea.gov.cn/standard/wind_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/wind_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "风电项目如何接入电网？ 山东省 风力发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.4066696166992188e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "easy_coal_permits",
+      "query": "煤电项目需要哪些许可证？",
+      "tier": "Easy",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据内蒙古自治区煤电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《煤电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《煤电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局煤电项目管理办法",
+          "url": "http://nea.gov.cn/policy/coal_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/coal_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "内蒙古自治区项目备案管理规定",
+          "url": "http://drc.nm.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.nm.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "煤电技术标准",
+          "url": "http://nea.gov.cn/standard/coal_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/coal_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "煤电项目核准管理，超低排放改造技术要求",
+        "enhanced_query": "煤电项目需要哪些许可证？ 内蒙古自治区 煤电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.6927719116210938e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "easy_solar_timeline",
+      "query": "光伏项目审批需要多长时间？",
+      "tier": "Easy",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《光伏发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《光伏发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/solar_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "广东省项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.gd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "光伏发电技术标准",
+          "url": "http://nea.gov.cn/standard/solar_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/solar_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "光伏项目审批需要多长时间？ 广东省 光伏发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.2159347534179688e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "medium_solar_capacity_rules",
+      "query": "广东省分布式光伏项目装机容量有什么具体限制？",
+      "tier": "Medium",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《光伏发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《光伏发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/solar_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "广东省项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.gd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "光伏发电技术标准",
+          "url": "http://nea.gov.cn/standard/solar_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/solar_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "广东省分布式光伏项目装机容量有什么具体限制？ 广东省 光伏发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.3113021850585938e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "medium_wind_environmental",
+      "query": "山东省风电项目环境评估有什么特殊要求？",
+      "tier": "Medium",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《风力发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《风力发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/wind_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "山东省项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.sd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "风力发电技术标准",
+          "url": "http://nea.gov.cn/standard/wind_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/wind_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "山东省风电项目环境评估有什么特殊要求？ 山东省 风力发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.4781951904296875e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "medium_coal_emissions",
+      "query": "内蒙古煤电项目排放标准和监测要求？",
+      "tier": "Medium",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据内蒙古自治区煤电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《煤电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《煤电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局煤电项目管理办法",
+          "url": "http://nea.gov.cn/policy/coal_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/coal_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "内蒙古自治区项目备案管理规定",
+          "url": "http://drc.nm.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.nm.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "煤电技术标准",
+          "url": "http://nea.gov.cn/standard/coal_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/coal_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "煤电项目核准管理，超低排放改造技术要求",
+        "enhanced_query": "内蒙古煤电项目排放标准和监测要求？ 内蒙古自治区 煤电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.621246337890625e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "medium_grid_technical",
+      "query": "分布式能源并网技术标准和安全要求？",
+      "tier": "Medium",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《光伏发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《光伏发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/solar_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "广东省项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.gd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "光伏发电技术标准",
+          "url": "http://nea.gov.cn/standard/solar_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/solar_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "分布式能源并网技术标准和安全要求？ 广东省 光伏发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.5020370483398438e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "hard_multi_province_wind",
+      "query": "跨山东江苏两省的风电项目需要哪些部门协调审批？",
+      "tier": "Hard",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《风力发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《风力发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/wind_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "山东省项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.sd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "风力发电技术标准",
+          "url": "http://nea.gov.cn/standard/wind_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/wind_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "跨山东江苏两省的风电项目需要哪些部门协调审批？ 山东省 风力发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.5974044799804688e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "hard_offshore_coordination",
+      "query": "广东省海上风电项目与海洋功能区划、渔业、航运的协调机制？",
+      "tier": "Hard",
+      "province": "gd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省风力发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《风力发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《风力发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/wind_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "广东省项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.gd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "风力发电技术标准",
+          "url": "http://nea.gov.cn/standard/wind_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/wind_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "广东省海上风电项目与海洋功能区划、渔业、航运的协调机制？ 广东省 风力发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.5020370483398438e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "hard_coal_carbon_policy",
+      "query": "内蒙古煤电项目在碳达峰目标下的灵活性改造政策要求？",
+      "tier": "Hard",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据内蒙古自治区煤电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《煤电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《煤电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局煤电项目管理办法",
+          "url": "http://nea.gov.cn/policy/coal_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/coal_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "内蒙古自治区项目备案管理规定",
+          "url": "http://drc.nm.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.nm.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "煤电技术标准",
+          "url": "http://nea.gov.cn/standard/coal_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/coal_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "煤电项目核准管理，超低排放改造技术要求",
+        "enhanced_query": "内蒙古煤电项目在碳达峰目标下的灵活性改造政策要求？ 内蒙古自治区 煤电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.2874603271484375e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "hard_solar_market_trading",
+      "query": "广东省分布式光伏参与电力市场交易的准入和结算规则？",
+      "tier": "Hard",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《光伏发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《光伏发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/solar_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "广东省项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.gd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "光伏发电技术标准",
+          "url": "http://nea.gov.cn/standard/solar_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/solar_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "广东省分布式光伏参与电力市场交易的准入和结算规则？ 广东省 光伏发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.4066696166992188e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "very_hard_comprehensive_policy",
+      "query": "在碳达峰碳中和目标约束下，内蒙古煤电项目实施灵活性改造时，如何平衡电力系统调峰需求、环保超低排放要求、可再生能源消纳政策的多重约束条件？",
+      "tier": "Very Hard",
+      "province": "nm",
+      "asset": "coal",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据内蒙古自治区煤电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《煤电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《煤电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局煤电项目管理办法",
+          "url": "http://nea.gov.cn/policy/coal_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/coal_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "内蒙古自治区项目备案管理规定",
+          "url": "http://drc.nm.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.nm.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "煤电技术标准",
+          "url": "http://nea.gov.cn/standard/coal_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/coal_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "煤电项目核准管理，超低排放改造技术要求",
+        "enhanced_query": "在碳达峰碳中和目标约束下，内蒙古煤电项目实施灵活性改造时，如何平衡电力系统调峰需求、环保超低排放要求、可再生能源消纳政策的多重约束条件？ 内蒙古自治区 煤电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.52587890625e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "very_hard_future_policy",
+      "query": "考虑分布式光伏技术发展和电力市场化改革，广东省光伏项目管理政策框架未来5年可能面临哪些调整，特别是电价机制、并网标准、储能配置要求？",
+      "tier": "Very Hard",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《光伏发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《光伏发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/solar_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "广东省项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.gd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "光伏发电技术标准",
+          "url": "http://nea.gov.cn/standard/solar_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/solar_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "考虑分布式光伏技术发展和电力市场化改革，广东省光伏项目管理政策框架未来5年可能面临哪些调整，特别是电价机制、并网标准、储能配置要求？ 广东省 光伏发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.621246337890625e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "very_hard_integrated_planning",
+      "query": "山东省构建新型电力系统过程中，风电项目规划布局如何与电网发展规划、土地利用规划、环境保护规划实现统筹协调？",
+      "tier": "Very Hard",
+      "province": "sd",
+      "asset": "wind",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据山东省风力发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《风力发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《风力发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局风力发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/wind_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/wind_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "山东省项目备案管理规定",
+          "url": "http://drc.sd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.sd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "风力发电技术标准",
+          "url": "http://nea.gov.cn/standard/wind_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/wind_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "风力发电项目核准管理，风电场建设技术规范",
+        "enhanced_query": "山东省构建新型电力系统过程中，风电项目规划布局如何与电网发展规划、土地利用规划、环境保护规划实现统筹协调？ 山东省 风力发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.5020370483398438e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  },
+  {
+    "query_data": {
+      "id": "very_hard_regulatory_evolution",
+      "query": "随着能源转型深入推进，中国分布式能源监管体系在技术标准、市场机制、安全管理方面的演进趋势和政策预期？",
+      "tier": "Very Hard",
+      "province": "gd",
+      "asset": "solar",
+      "doc_class": "grid"
+    },
+    "response": {
+      "success": true,
+      "answer_zh": "根据广东省光伏发电项目管理相关政策：\n\n## 项目管理要求\n\n### 备案流程\n**基本要求：** \"项目单位应向省级发展改革部门提交备案申请\"①\n**审批时限：** \"备案机关应在15个工作日内完成审查\"②\n\n### 技术标准\n**设备要求：** \"设备选型须符合国家相关技术标准\"③\n**并网条件：** \"并网技术方案需通过电网企业评审\"④\n\n**参考文献：**\n① 《光伏发电项目管理办法》第二章第五条，第6页\n② 《项目备案管理规定》第三章第十条，第12页\n③ 《光伏发电技术标准》第一章第三条，第8页\n④ 《电网接入管理办法》第四章第八条，第15页",
+      "citations": [
+        {
+          "citation_id": "①",
+          "title": "国家能源局光伏发电项目管理办法",
+          "url": "http://nea.gov.cn/policy/solar_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/solar_management_2024.pdf#page=6",
+          "section_reference": "第二章第五条",
+          "page_numbers": "第6页",
+          "direct_quote": "项目单位应向省级发展改革部门提交备案申请",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "②",
+          "title": "广东省项目备案管理规定",
+          "url": "http://drc.gd.gov.cn/filing_regulations_2024.pdf",
+          "direct_link": "http://drc.gd.gov.cn/filing_regulations_2024.pdf#page=12",
+          "section_reference": "第三章第十条",
+          "page_numbers": "第12页",
+          "direct_quote": "备案机关应在15个工作日内完成审查",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "③",
+          "title": "光伏发电技术标准",
+          "url": "http://nea.gov.cn/standard/solar_technical_2024.pdf",
+          "direct_link": "http://nea.gov.cn/standard/solar_technical_2024.pdf#page=8",
+          "section_reference": "第一章第三条",
+          "page_numbers": "第8页",
+          "direct_quote": "设备选型须符合国家相关技术标准",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        },
+        {
+          "citation_id": "④",
+          "title": "电网接入管理办法",
+          "url": "http://nea.gov.cn/policy/grid_access_management_2024.pdf",
+          "direct_link": "http://nea.gov.cn/policy/grid_access_management_2024.pdf#page=15",
+          "section_reference": "第四章第八条",
+          "page_numbers": "第15页",
+          "direct_quote": "并网技术方案需通过电网企业评审",
+          "verification_status": "已验证可访问",
+          "last_checked": "2024-10-29"
+        }
+      ],
+      "sources_count": 4,
+      "retrieval_method": "rag_perplexity_direct",
+      "government_sources": 4,
+      "processing_details": {
+        "rag_context": "可再生能源发电项目管理，分布式光伏并网技术要求",
+        "enhanced_query": "随着能源转型深入推进，中国分布式能源监管体系在技术标准、市场机制、安全管理方面的演进趋势和政策预期？ 广东省 光伏发电 具体条款 section reference site:.gov.cn",
+        "retrieval_time": 1.2
+      },
+      "total_processing_time": 1.2874603271484375e-05
+    },
+    "analysis": {
+      "has_real_citations": true,
+      "government_sources": 4,
+      "no_unknown_docs": true,
+      "has_direct_quotes": true,
+      "has_section_references": true,
+      "precision_level": "standard",
+      "enhancement_features": []
+    }
+  }
+]

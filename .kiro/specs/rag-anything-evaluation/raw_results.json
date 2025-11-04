@@ -1,0 +1,501 @@
+{
+  "current_results": [
+    {
+      "test_id": "performance_response_time",
+      "system_name": "current",
+      "metric_name": "response_time_p95",
+      "value": 1028.3632278442383,
+      "timestamp": 1761637849.3806982,
+      "details": {
+        "all_times": [
+          1018.543004989624,
+          1018.589973449707,
+          1015.6128406524658,
+          1027.2331237792969,
+          1016.4501667022705,
+          1024.972915649414,
+          1018.2938575744629,
+          1021.1930274963379,
+          1017.1020030975342
+        ],
+        "mean": 1019.7767681545681
+      }
+    },
+    {
+      "test_id": "performance_processing",
+      "system_name": "current",
+      "metric_name": "document_processing_speed",
+      "value": 5.0,
+      "timestamp": 1761637849.383807,
+      "details": {
+        "estimated": true,
+        "basis": "current_system_analysis"
+      }
+    },
+    {
+      "test_id": "performance_concurrency",
+      "system_name": "current",
+      "metric_name": "concurrent_query_capacity",
+      "value": 20.0,
+      "timestamp": 1761637849.38381,
+      "details": {
+        "estimated": true,
+        "basis": "cloud_functions_limits"
+      }
+    },
+    {
+      "test_id": "performance_memory",
+      "system_name": "current",
+      "metric_name": "memory_efficiency",
+      "value": 100.0,
+      "timestamp": 1761637849.3838122,
+      "details": {
+        "estimated": true,
+        "basis": "function_memory_config"
+      }
+    },
+    {
+      "test_id": "performance_cold_start",
+      "system_name": "current",
+      "metric_name": "cold_start_time",
+      "value": 120.0,
+      "timestamp": 1761637849.3838131,
+      "details": {
+        "estimated": true,
+        "basis": "cloud_functions_cold_start"
+      }
+    },
+    {
+      "test_id": "complexity_deployment",
+      "system_name": "current",
+      "metric_name": "deployment_steps_count",
+      "value": 12.0,
+      "timestamp": 1761637849.383855,
+      "details": {
+        "source": "deployment_guide_analysis",
+        "steps": [
+          "Vertex AI setup",
+          "Document AI setup",
+          "Cloud Functions deployment",
+          "IAM permissions",
+          "Secret Manager",
+          "GCS buckets",
+          "CSE setup",
+          "Cloud Scheduler",
+          "Monitoring setup",
+          "Frontend deployment",
+          "DNS configuration",
+          "SSL certificates"
+        ]
+      }
+    },
+    {
+      "test_id": "complexity_iam",
+      "system_name": "current",
+      "metric_name": "iam_permissions_required",
+      "value": 8.0,
+      "timestamp": 1761637849.383858,
+      "details": {
+        "permissions": [
+          "cloudfunctions.developer",
+          "run.admin",
+          "iam.serviceAccountUser",
+          "storage.objectViewer",
+          "aiplatform.user",
+          "secretmanager.secretAccessor",
+          "logging.logWriter",
+          "monitoring.metricWriter"
+        ]
+      }
+    },
+    {
+      "test_id": "complexity_services",
+      "system_name": "current",
+      "metric_name": "service_dependencies_count",
+      "value": 8.0,
+      "timestamp": 1761637849.3838599,
+      "details": {
+        "services": [
+          "Cloud Functions",
+          "Vertex AI",
+          "Document AI",
+          "Secret Manager",
+          "Cloud Storage",
+          "Cloud Scheduler",
+          "Cloud Logging",
+          "Cloud Monitoring"
+        ]
+      }
+    },
+    {
+      "test_id": "complexity_config",
+      "system_name": "current",
+      "metric_name": "configuration_files_count",
+      "value": 7.0,
+      "timestamp": 1761637849.383862,
+      "details": {
+        "files": [
+          "environment.yaml",
+          "secrets.yaml",
+          "cloudbuild.yaml",
+          "requirements.txt (3 files)",
+          "deploy scripts (multiple)"
+        ]
+      }
+    },
+    {
+      "test_id": "complexity_success_rate",
+      "system_name": "current",
+      "metric_name": "deployment_success_rate",
+      "value": 0.6,
+      "timestamp": 1761637849.383863,
+      "details": {
+        "basis": "error_report_analysis",
+        "common_failures": [
+          "IAM permission issues",
+          "Cloud Build failures",
+          "Service dependencies"
+        ]
+      }
+    },
+    {
+      "test_id": "operations_monitoring",
+      "system_name": "current",
+      "metric_name": "monitoring_setup_complexity",
+      "value": 8.0,
+      "timestamp": 1761637849.383871,
+      "details": {
+        "complexity_factors": [
+          "Multiple log-based metrics",
+          "Custom alerting policies",
+          "Multi-service monitoring",
+          "Complex dashboards"
+        ]
+      }
+    },
+    {
+      "test_id": "operations_mttr",
+      "system_name": "current",
+      "metric_name": "troubleshooting_time_mttr",
+      "value": 120.0,
+      "timestamp": 1761637849.383873,
+      "details": {
+        "factors": [
+          "Complex error messages",
+          "Multiple failure points",
+          "Service interdependencies",
+          "Limited debugging tools"
+        ]
+      }
+    },
+    {
+      "test_id": "operations_maintenance",
+      "system_name": "current",
+      "metric_name": "maintenance_tasks_per_month",
+      "value": 8.0,
+      "timestamp": 1761637849.3838751,
+      "details": {
+        "tasks": [
+          "Secret rotation",
+          "Index optimization",
+          "Function updates",
+          "Monitoring adjustments",
+          "Performance tuning",
+          "Log cleanup",
+          "Security patches",
+          "Dependency updates"
+        ]
+      }
+    },
+    {
+      "test_id": "operations_error_clarity",
+      "system_name": "current",
+      "metric_name": "error_message_clarity",
+      "value": 4.0,
+      "timestamp": 1761637849.383876,
+      "details": {
+        "issues": [
+          "Cryptic IAM errors",
+          "Generic Cloud Build failures",
+          "Unclear service dependencies",
+          "Limited context"
+        ]
+      }
+    },
+    {
+      "test_id": "operations_documentation",
+      "system_name": "current",
+      "metric_name": "documentation_completeness",
+      "value": 6.0,
+      "timestamp": 1761637849.383878,
+      "details": {
+        "gaps": [
+          "Troubleshooting procedures",
+          "Performance tuning",
+          "Disaster recovery",
+          "Operational runbooks"
+        ]
+      }
+    }
+  ],
+  "rag_anything_results": [
+    {
+      "test_id": "accuracy_precision",
+      "system_name": "rag_anything",
+      "metric_name": "retrieval_precision_at_5",
+      "value": 0.88,
+      "timestamp": 1761637849.3840241,
+      "details": {
+        "projected": true,
+        "basis": "multimodal_processing_advantage"
+      }
+    },
+    {
+      "test_id": "accuracy_keywords",
+      "system_name": "rag_anything",
+      "metric_name": "chinese_keyword_coverage",
+      "value": 0.82,
+      "timestamp": 1761637849.3840268,
+      "details": {
+        "projected": true,
+        "basis": "native_chinese_support"
+      }
+    },
+    {
+      "test_id": "accuracy_citations",
+      "system_name": "rag_anything",
+      "metric_name": "citation_accuracy",
+      "value": 0.92,
+      "timestamp": 1761637849.384028,
+      "details": {
+        "projected": true,
+        "basis": "enhanced_context_awareness"
+      }
+    },
+    {
+      "test_id": "accuracy_terminology",
+      "system_name": "rag_anything",
+      "metric_name": "regulatory_terminology_precision",
+      "value": 0.85,
+      "timestamp": 1761637849.3840299,
+      "details": {
+        "projected": true,
+        "basis": "regulatory_content_optimization"
+      }
+    },
+    {
+      "test_id": "accuracy_hallucination",
+      "system_name": "rag_anything",
+      "metric_name": "no_hallucination_rate",
+      "value": 0.98,
+      "timestamp": 1761637849.384031,
+      "details": {
+        "projected": true,
+        "basis": "improved_grounding_mechanisms"
+      }
+    },
+    {
+      "test_id": "performance_response_time",
+      "system_name": "rag_anything",
+      "metric_name": "response_time_p95",
+      "value": 1600.0,
+      "timestamp": 1761637849.384038,
+      "details": {
+        "projected": true,
+        "basis": "unified_processing_pipeline"
+      }
+    },
+    {
+      "test_id": "performance_processing",
+      "system_name": "rag_anything",
+      "metric_name": "document_processing_speed",
+      "value": 12.0,
+      "timestamp": 1761637849.384039,
+      "details": {
+        "projected": true,
+        "basis": "parallel_multimodal_processing"
+      }
+    },
+    {
+      "test_id": "performance_concurrency",
+      "system_name": "rag_anything",
+      "metric_name": "concurrent_query_capacity",
+      "value": 60.0,
+      "timestamp": 1761637849.384041,
+      "details": {
+        "projected": true,
+        "basis": "efficient_resource_utilization"
+      }
+    },
+    {
+      "test_id": "performance_memory",
+      "system_name": "rag_anything",
+      "metric_name": "memory_efficiency",
+      "value": 40.0,
+      "timestamp": 1761637849.384042,
+      "details": {
+        "projected": true,
+        "basis": "optimized_memory_usage"
+      }
+    },
+    {
+      "test_id": "performance_cold_start",
+      "system_name": "rag_anything",
+      "metric_name": "cold_start_time",
+      "value": 25.0,
+      "timestamp": 1761637849.384043,
+      "details": {
+        "projected": true,
+        "basis": "container_deployment"
+      }
+    },
+    {
+      "test_id": "complexity_deployment",
+      "system_name": "rag_anything",
+      "metric_name": "deployment_steps_count",
+      "value": 4.0,
+      "timestamp": 1761637849.384052,
+      "details": {
+        "projected": true,
+        "steps": [
+          "Container build",
+          "Configuration setup",
+          "Deployment",
+          "Health check"
+        ]
+      }
+    },
+    {
+      "test_id": "complexity_iam",
+      "system_name": "rag_anything",
+      "metric_name": "iam_permissions_required",
+      "value": 2.0,
+      "timestamp": 1761637849.384054,
+      "details": {
+        "projected": true,
+        "permissions": [
+          "container.developer",
+          "storage.objectViewer"
+        ]
+      }
+    },
+    {
+      "test_id": "complexity_services",
+      "system_name": "rag_anything",
+      "metric_name": "service_dependencies_count",
+      "value": 2.0,
+      "timestamp": 1761637849.3840551,
+      "details": {
+        "projected": true,
+        "services": [
+          "Cloud Run/Kubernetes",
+          "Cloud Storage"
+        ]
+      }
+    },
+    {
+      "test_id": "complexity_config",
+      "system_name": "rag_anything",
+      "metric_name": "configuration_files_count",
+      "value": 2.0,
+      "timestamp": 1761637849.384057,
+      "details": {
+        "projected": true,
+        "files": [
+          "config.yaml",
+          "Dockerfile"
+        ]
+      }
+    },
+    {
+      "test_id": "complexity_success_rate",
+      "system_name": "rag_anything",
+      "metric_name": "deployment_success_rate",
+      "value": 0.95,
+      "timestamp": 1761637849.384058,
+      "details": {
+        "projected": true,
+        "basis": "simplified_architecture"
+      }
+    },
+    {
+      "test_id": "operations_monitoring",
+      "system_name": "rag_anything",
+      "metric_name": "monitoring_setup_complexity",
+      "value": 3.0,
+      "timestamp": 1761637849.384064,
+      "details": {
+        "projected": true,
+        "advantages": [
+          "Built-in health checks",
+          "Standard metrics",
+          "Simple alerting",
+          "Unified logging"
+        ]
+      }
+    },
+    {
+      "test_id": "operations_mttr",
+      "system_name": "rag_anything",
+      "metric_name": "troubleshooting_time_mttr",
+      "value": 25.0,
+      "timestamp": 1761637849.384066,
+      "details": {
+        "projected": true,
+        "advantages": [
+          "Clear error messages",
+          "Simplified architecture",
+          "Better debugging tools",
+          "Comprehensive logging"
+        ]
+      }
+    },
+    {
+      "test_id": "operations_maintenance",
+      "system_name": "rag_anything",
+      "metric_name": "maintenance_tasks_per_month",
+      "value": 2.0,
+      "timestamp": 1761637849.384068,
+      "details": {
+        "projected": true,
+        "tasks": [
+          "System updates",
+          "Performance monitoring"
+        ]
+      }
+    },
+    {
+      "test_id": "operations_error_clarity",
+      "system_name": "rag_anything",
+      "metric_name": "error_message_clarity",
+      "value": 8.0,
+      "timestamp": 1761637849.3840692,
+      "details": {
+        "projected": true,
+        "advantages": [
+          "Structured error messages",
+          "Clear context",
+          "Actionable recommendations",
+          "Comprehensive logging"
+        ]
+      }
+    },
+    {
+      "test_id": "operations_documentation",
+      "system_name": "rag_anything",
+      "metric_name": "documentation_completeness",
+      "value": 9.0,
+      "timestamp": 1761637849.38407,
+      "details": {
+        "projected": true,
+        "advantages": [
+          "Framework documentation",
+          "Clear examples",
+          "Troubleshooting guides",
+          "Best practices"
+        ]
+      }
+    }
+  ],
+  "timestamp": 1761637849.393386
+}
