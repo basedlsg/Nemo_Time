@@ -30,8 +30,7 @@ def answer_with_perplexity(question: str, province: str, asset: str, *, lang: st
 
     topic = _infer_topic(question, asset, doc_class)
     allowlist = _build_allowlist(province, topic)
-    site_filters = " OR ".join(f"site:{d}" for d in allowlist if not d.startswith("."))
-    suffix_filters = " ".join(sorted(set(d for d in allowlist if d.startswith("."))))
+    domain_filter = _build_domain_filter(province, topic)
     # Topic-specific hints
     topic_hints = _topic_hints(question, asset, topic)
 
@@ -45,16 +44,16 @@ def answer_with_perplexity(question: str, province: str, asset: str, *, lang: st
         "If unsure, state that clearly and ask for clarification."
     )
 
-    # Translate the query into a very targeted web intent
+    # Clean query without site: operators (handled by search_domain_filter parameter)
     user = (
         f"问题：{question}\n\n"
         f"范围与限制：\n"
         f"- 省份：{province}\n- 主题：{asset} 领域相关流程/规定\n"
-        f"- 限制来源：优先使用 *.gov.cn 官方网站，以及与本主题直接相关的部委/监管机构网站（如 自然资源部/生态环境部/住建部/发改委/能源局/交通运输部/国家铁路局 的官网及省级对口部门）。\n"
+        f"- 限制来源：优先使用官方政府网站，以及与本主题直接相关的部委/监管机构网站（如 自然资源部/生态环境部/住建部/发改委/能源局/交通运输部/国家铁路局 的官网及省级对口部门）。\n"
         f"- 仅返回与问题直接相关、能指导实际办理的法规/指南/办事流程/技术规范/要件清单。\n"
         f"- 优先2015年及以后仍有效的规范性文件；如为更早文件需注明是否仍然有效。\n"
         f"- 回答语言：{'中文' if (lang or '').lower().startswith('zh') else 'English'}。\n\n"
-        f"搜索提示（供你内部使用）：{site_filters} {suffix_filters} {topic_hints}"
+        f"搜索提示（供你内部使用）：{topic_hints}"
     )
 
     payload = {
@@ -63,8 +62,9 @@ def answer_with_perplexity(question: str, province: str, asset: str, *, lang: st
             {"role": "system", "content": system},
             {"role": "user", "content": user},
         ],
+        "search_domain_filter": domain_filter,  # ✅ KEY FIX: Use API parameter instead of query text
+        "search_recency_filter": "year",  # Changed from implicit/month to explicit year
         "return_citations": True,
-        # Mildly lower verbosity; we’ll post-filter citations ourselves
     }
 
     try:
@@ -142,6 +142,52 @@ def _build_allowlist(province: str, topic: str) -> List[str]:
     return list(dict.fromkeys(allow))
 
 
+def _build_domain_filter(province: str, topic: str) -> List[str]:
+    """
+    Build domain filter list for Perplexity's search_domain_filter parameter.
+    This parameter filters search results to only include specified domains.
+    Maximum 20 domains supported by Perplexity API.
+    """
+    # Start with core government domains (without leading dots)
+    domains = [
+        "gov.cn",           # All Chinese government domains
+        "ndrc.gov.cn",      # National Development and Reform Commission
+        "nea.gov.cn",       # National Energy Administration
+        "mnr.gov.cn",       # Ministry of Natural Resources
+        "mee.gov.cn",       # Ministry of Ecology and Environment
+        "mohurd.gov.cn",    # Housing and Urban-Rural Development
+    ]
+
+    # Add topic-specific domains
+    if topic == 'rail_freight':
+        domains += ["mot.gov.cn", "nra.gov.cn", "95306.cn", "12306.cn"]
+    elif topic in ('land_survey', 'permitting', 'siting'):
+        domains += ["mnr.gov.cn", "mohurd.gov.cn", "mee.gov.cn"]
+    elif topic in ('grid_connection', 'renewables'):
+        domains += ["gdwenergy.gov.cn"]
+
+    # Add province-specific domains
+    if province:
+        prov_map = {
+            "gd": ["gd.gov.cn", "nr.gd.gov.cn", "drc.gd.gov.cn", "td.gd.gov.cn"],
+            "sd": ["sd.gov.cn"],
+            "nm": ["nmg.gov.cn"],
+        }
+        domains += prov_map.get(province, [])
+
+    # Deduplicate while preserving order, limit to 20 domains (API max)
+    seen = set()
+    filtered = []
+    for d in domains:
+        # Remove leading dots for API compatibility
+        clean = d.lstrip('.')
+        if clean not in seen:
+            seen.add(clean)
+            filtered.append(clean)
+
+    return filtered[:20]  # Perplexity API max is 20 domains
+
+
 def _is_allowed(url: str, allowlist: List[str]) -> bool:
     from urllib.parse import urlparse
     try:
@@ -168,8 +214,6 @@ def _topic_hints(question: str, asset: str, topic: str) -> str:
             "铁路托运 办理流程",
             "零担 整车 货物 托运 铁路",
             "铁路货运 运单 要求",
-            "site:nra.gov.cn",
-            "site:mot.gov.cn",
         ]
         if asset and (asset.lower() == 'coal' or '煤' in question):
             hints += ["煤 炭 铁路 运输 要求", "散装 煤 运输 包装 装载 要求"]
@@ -182,9 +226,6 @@ def _topic_hints(question: str, asset: str, topic: str) -> str:
             "永久 基本 农田 占用 论证",
             "生态 保护 红线 评估",
             "环境 影响 评价 报告 备案",
-            "site:mnr.gov.cn",
-            "site:mee.gov.cn",
-            "site:mohurd.gov.cn",
         ]
         if asset and (asset.lower() == 'solar' or '光伏' in question):
             hints += ["光伏 电站 选址 用地 要求", "光伏 项目 国土 空间 规划"]
@@ -238,15 +279,12 @@ def _perplexity_urls_only(question: str, province: str, asset: str, topic: str) 
     api_key = os.environ.get("PERPLEXITY_API_KEY")
     if not api_key:
         return []
-    allow = _build_allowlist(province, topic)
-    site_filters = " OR ".join(f"site:{d}" for d in allow if not d.startswith("."))
-    suffix_filters = " ".join(sorted(set(d for d in allow if d.startswith("."))))
+    domain_filter = _build_domain_filter(province, topic)
     prompt = (
         "只返回与下列主题直接相关的权威来源URL，每行一个，不要任何解释：\n"
         f"问题：{question}\n"
         f"省份：{province}\n主题：{asset}\n"
-        f"来源限制：{site_filters} {suffix_filters}\n"
-        "要求：优先 *.gov.cn 以及对应部委/省级对口部门官网页面。最多返回10条。"
+        "要求：优先官方政府网站以及对应部委/省级对口部门官网页面。最多返回10条。"
     )
     payload = {
         "model": os.environ.get("PERPLEXITY_MODEL", "sonar-pro"),
@@ -254,6 +292,8 @@ def _perplexity_urls_only(question: str, province: str, asset: str, topic: str) 
             {"role": "system", "content": "Return only URLs, one per line. No explanations."},
             {"role": "user", "content": prompt},
         ],
+        "search_domain_filter": domain_filter,  # ✅ Use API parameter for domain filtering
+        "search_recency_filter": "year",
         "return_citations": True,
     }
     try:
