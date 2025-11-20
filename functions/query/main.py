@@ -15,7 +15,7 @@ from flask import Request, make_response
 from vertex_index import search_documents, embed_query
 from composer import compose_response
 from lib.sanitize import normalize_query
-from cse import discover_documents
+# CSE removed - using Perplexity-first architecture
 from perplexity import answer_with_perplexity
 import requests
 import re
@@ -120,27 +120,9 @@ def query_handler(request: Request) -> Dict[str, Any]:
         # Compose response
         compose_start = time.time()
         if not candidates:
-            # 2) CSE/Perplexity discovery fallback for links
-            fallback_started = time.time()
-            fallback_enabled = os.environ.get('ALLOW_CSE_FALLBACK', 'true').lower() == 'true'
-            if fallback_enabled:
-                urls = discover_documents(province, asset, doc_class, normalized_question)
-                print(f"[{trace_id}] CSE fallback discovered {len(urls)} URLs in {int((time.time()-fallback_started)*1000)}ms")
-                if urls:
-                    citations = []
-                    for url in urls[:5]:
-                        title = _fetch_page_title(url) or url
-                        citations.append({'title': title, 'url': url})
-                    response = {
-                        'answer_zh': '为您找到相关来源文档：' if (lang or '').lower().startswith('zh') else 'Found related source documents:',
-                        'citations': citations,
-                        'trace_id': trace_id,
-                        'mode': 'cse_fallback'
-                    }
-                else:
-                    response = _refusal_response(trace_id, int((time.time() - start_time) * 1000), lang)
-            else:
-                response = _refusal_response(trace_id, int((time.time() - start_time) * 1000), lang)
+            # No CSE fallback - simplified architecture (Perplexity-first)
+            # If Perplexity and Vertex AI both failed, return refusal
+            response = _refusal_response(trace_id, int((time.time() - start_time) * 1000), lang)
         else:
             response = compose_response(candidates, normalized_question, lang)
             response['trace_id'] = trace_id
