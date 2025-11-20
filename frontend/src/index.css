@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-neutral-200;
+  }
+
+  body {
+    @apply bg-neutral-50 text-neutral-900 antialiased;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-neutral-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neutral-300 rounded;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-neutral-400;
+  }
+}
+
+@layer components {
+  /* ChatGPT-style message styling */
+  .message-content {
+    @apply leading-7;
+  }
+
+  .message-content p {
+    @apply mb-4;
+  }
+
+  .message-content ul,
+  .message-content ol {
+    @apply mb-4 ml-6;
+  }
+
+  .message-content li {
+    @apply mb-2;
+  }
+
+  .message-content code {
+    @apply bg-neutral-100 px-1.5 py-0.5 rounded text-sm font-mono;
+  }
+
+  .message-content pre {
+    @apply bg-neutral-800 text-neutral-100 p-4 rounded-lg mb-4 overflow-x-auto;
+  }
+
+  .message-content pre code {
+    @apply bg-transparent p-0;
+  }
+
+  .message-content a {
+    @apply text-olive-600 hover:text-olive-700 underline;
+  }
+
+  .message-content h1,
+  .message-content h2,
+  .message-content h3 {
+    @apply font-bold mb-3 mt-6;
+  }
+
+  .message-content h1 {
+    @apply text-2xl;
+  }
+
+  .message-content h2 {
+    @apply text-xl;
+  }
+
+  .message-content h3 {
+    @apply text-lg;
+  }
+
+  /* Loading animation */
+  .typing-indicator {
+    @apply flex space-x-1;
+  }
+
+  .typing-indicator span {
+    @apply w-2 h-2 bg-neutral-400 rounded-full animate-pulse;
+    animation-delay: calc(var(--delay) * 0.15s);
+  }
+}
