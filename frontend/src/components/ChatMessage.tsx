@@ -26,7 +26,7 @@ export function ChatMessage({ message }: ChatMessageProps) {
           <div
             className={cn(
               'flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center',
-              isUser ? 'bg-olive-500' : 'bg-olive-600'
+              isUser ? 'bg-purple-500' : 'bg-teal-500'  // ChatGPT colors: purple for user, teal for AI
             )}
           >
             {isUser ? (
@@ -81,7 +81,7 @@ export function ChatMessage({ message }: ChatMessageProps) {
                   {message.citations.map((citation, index) => (
                     <div
                       key={index}
-                      className="p-3 bg-neutral-100 rounded-lg border border-neutral-200 hover:border-olive-500 transition-colors"
+                      className="p-3 bg-neutral-100 rounded-lg border border-neutral-200 hover:border-brand-500 transition-colors"
                     >
                       <div className="text-sm font-medium text-neutral-900 mb-1">
                         {citation.title}
@@ -95,7 +95,7 @@ export function ChatMessage({ message }: ChatMessageProps) {
                         href={citation.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-xs text-olive-600 hover:text-olive-700 flex items-center gap-1"
+                        className="text-xs text-brand-600 hover:text-brand-700 flex items-center gap-1"
                       >
                         {t('viewSource')}
                         <ExternalLink className="w-3 h-3" />

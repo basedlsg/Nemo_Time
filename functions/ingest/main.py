@@ -12,7 +12,7 @@ import functions_framework
 from flask import Request, make_response
 
 # Import shared libraries (local copies)
-from cse import discover_documents
+from document_discovery import discover_documents  # Real Perplexity-based discovery
 from docai import process_document
 from lib.sanitize import normalize_text, extract_effective_date
 from chunker import create_chunks

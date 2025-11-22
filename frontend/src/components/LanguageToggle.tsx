@@ -13,7 +13,7 @@ export function LanguageToggle() {
         className={cn(
           'px-2 py-1 text-sm rounded transition-colors',
           lang === 'zh'
-            ? 'bg-olive-500 text-white'
+            ? 'bg-brand-500 text-white'
             : 'text-neutral-600 hover:bg-neutral-100'
         )}
       >
@@ -24,7 +24,7 @@ export function LanguageToggle() {
         className={cn(
           'px-2 py-1 text-sm rounded transition-colors',
           lang === 'en'
-            ? 'bg-olive-500 text-white'
+            ? 'bg-brand-500 text-white'
             : 'text-neutral-600 hover:bg-neutral-100'
         )}
       >

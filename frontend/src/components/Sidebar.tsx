@@ -22,10 +22,10 @@ export function Sidebar() {
   }
 
   return (
-    <div className="w-64 h-screen bg-neutral-900 text-white flex flex-col">
+    <div className="w-[260px] h-screen bg-neutral-950 text-white flex flex-col">
       {/* Header */}
       <div className="p-4 border-b border-neutral-800">
-        <h1 className="text-xl font-bold text-olive-400 mb-1">{t('appName')}</h1>
+        <h1 className="text-xl font-bold text-brand-400 mb-1">{t('appName')}</h1>
         <p className="text-xs text-neutral-400">{t('appSubtitle')}</p>
       </div>
 
@@ -33,7 +33,7 @@ export function Sidebar() {
       <div className="p-3 border-b border-neutral-800">
         <button
           onClick={createSession}
-          className="w-full flex items-center gap-2 px-3 py-2 bg-olive-600 hover:bg-olive-700 rounded-lg transition-colors"
+          className="w-full flex items-center gap-2 px-3 py-2 bg-transparent border border-neutral-700 hover:bg-neutral-800 rounded-lg transition-colors"
         >
           <MessageSquarePlus className="w-5 h-5" />
           <span className="font-medium">{t('newChat')}</span>

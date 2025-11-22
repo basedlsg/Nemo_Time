@@ -7,32 +7,41 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Nemo Olive Green Brand Colors
-        olive: {
-          50: '#F7F8F4',
-          100: '#EDEEE6',
-          200: '#DBDCCD',
-          300: '#C3C5AA',
-          400: '#A7AA7D',
-          500: '#8B9456',  // PRIMARY BRAND COLOR
-          600: '#6F7A3E',  // Hover states
-          700: '#556B2F',  // Active states
-          800: '#455623',
-          900: '#3A471E',
-          950: '#1E2610',
+        // ChatGPT Brand Colors (Teal Green)
+        brand: {
+          50: '#E6F7F2',
+          100: '#CCEFE5',
+          200: '#99DFCB',
+          300: '#66CFB1',
+          400: '#33BF97',
+          500: '#10a37f',  // PRIMARY - ChatGPT Teal
+          600: '#0D8A6A',  // Hover states
+          700: '#0A7156',  // Active states
+          800: '#085843',
+          900: '#05402F',
         },
-        // Neutral Warm Grays
+        // Cool Grays (Blue undertones like ChatGPT)
         neutral: {
-          50: '#FAFAF9',
-          100: '#F5F5F4',
-          200: '#E7E5E4',
-          300: '#D6D3D1',
-          400: '#A8A29E',
-          500: '#78716C',
-          600: '#57534E',
-          700: '#44403C',
-          800: '#292524',
-          900: '#1C1917',
+          50: '#F7F7F8',   // Cool light gray
+          100: '#ECECF1',  // Very light gray
+          200: '#E5E5E5',  // Light gray
+          300: '#D1D1D6',  // Medium light gray
+          400: '#A0A0AB',  // Medium gray
+          500: '#6E6E80',  // Dark gray
+          600: '#565869',  // Darker gray
+          700: '#40414F',  // ChatGPT message bg
+          800: '#343540',  // ChatGPT main surface
+          900: '#202123',  // Dark surface
+          950: '#000000',  // Pure black (sidebar)
+        },
+        // Avatar Colors
+        purple: {
+          500: '#AB68FF',  // User avatar
+          600: '#9553E0',
+        },
+        teal: {
+          500: '#10a37f',  // AI avatar (same as brand)
+          600: '#0D8A6A',
         },
       },
       fontFamily: {

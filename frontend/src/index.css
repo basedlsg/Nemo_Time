@@ -62,7 +62,7 @@
   }
 
   .message-content a {
-    @apply text-olive-600 hover:text-olive-700 underline;
+    @apply text-brand-600 hover:text-brand-700 underline;
   }
 
   .message-content h1,

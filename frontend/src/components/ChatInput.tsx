@@ -141,7 +141,7 @@ export function ChatInput() {
               onKeyDown={handleKeyDown}
               placeholder={t('inputPlaceholder')}
               rows={1}
-              className="w-full px-4 py-3 pr-12 border border-neutral-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-olive-500 focus:border-transparent resize-none max-h-40 transition-all"
+              className="w-full px-4 py-3 pr-12 border border-neutral-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent resize-none max-h-40 transition-all"
               disabled={isLoading}
             />
           </div>
@@ -149,9 +149,9 @@ export function ChatInput() {
             onClick={handleSubmit}
             disabled={!canSend}
             className={cn(
-              'px-4 py-3 rounded-xl transition-all flex items-center gap-2',
+              'w-10 h-10 rounded-full transition-all flex items-center justify-center',
               canSend
-                ? 'bg-olive-500 hover:bg-olive-600 text-white shadow-md hover:shadow-lg'
+                ? 'bg-brand-500 hover:bg-brand-600 text-white shadow-md hover:shadow-lg'
                 : 'bg-neutral-200 text-neutral-400 cursor-not-allowed'
             )}
           >

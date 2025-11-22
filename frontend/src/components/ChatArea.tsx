@@ -27,8 +27,8 @@ export function ChatArea() {
           // Empty state
           <div className="h-full flex items-center justify-center p-8">
             <div className="text-center max-w-2xl">
-              <div className="inline-flex items-center justify-center w-16 h-16 mb-4 bg-olive-100 rounded-full">
-                <Sparkles className="w-8 h-8 text-olive-600" />
+              <div className="inline-flex items-center justify-center w-16 h-16 mb-4 bg-brand-100 rounded-full">
+                <Sparkles className="w-8 h-8 text-brand-600" />
               </div>
               <h2 className="text-2xl font-bold text-neutral-900 mb-2">
                 {t('welcomeTitle')}

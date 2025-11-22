@@ -75,21 +75,8 @@ def query_handler(request: Request) -> Dict[str, Any]:
         
         # Process query
         normalized_question = normalize_query(question)
-        # 0) Perplexity-first path for MVP precision
-        p_start = time.time()
-        p_ans = answer_with_perplexity(normalized_question, province, asset, lang=lang, doc_class=doc_class)
-        if p_ans and p_ans.get('citations'):
-            response = {
-                **p_ans,
-                'trace_id': trace_id,
-                'mode': 'perplexity_qa'
-            }
-            elapsed_ms = int((time.time() - start_time) * 1000)
-            response['elapsed_ms'] = elapsed_ms
-            print(f"[{trace_id}] Perplexity QA returned {len(p_ans['citations'])} citations in {int((time.time()-p_start)*1000)}ms")
-            return _cors_response(response, 200)
 
-        # 1) Vertex AI vector search (if configured)
+        # 1) PRIMARY PATH: Vertex AI RAG (vector search)
         candidates: List[Dict[str, Any]] = []
         search_ms = 0
         try:
@@ -120,13 +107,28 @@ def query_handler(request: Request) -> Dict[str, Any]:
         # Compose response
         compose_start = time.time()
         if not candidates:
-            # No CSE fallback - simplified architecture (Perplexity-first)
-            # If Perplexity and Vertex AI both failed, return refusal
-            response = _refusal_response(trace_id, int((time.time() - start_time) * 1000), lang)
+            # FALLBACK: Try Perplexity if no documents in vector database
+            print(f"[{trace_id}] No vector search results, falling back to Perplexity")
+            p_start = time.time()
+            p_ans = answer_with_perplexity(normalized_question, province, asset, lang=lang, doc_class=doc_class)
+            if p_ans and p_ans.get('citations'):
+                response = {
+                    **p_ans,
+                    'trace_id': trace_id,
+                    'mode': 'perplexity_fallback'  # Indicate this was fallback path
+                }
+                elapsed_ms = int((time.time() - start_time) * 1000)
+                response['elapsed_ms'] = elapsed_ms
+                print(f"[{trace_id}] Perplexity fallback returned {len(p_ans['citations'])} citations in {int((time.time()-p_start)*1000)}ms")
+            else:
+                # Both RAG and Perplexity failed - return honest refusal
+                response = _refusal_response(trace_id, int((time.time() - start_time) * 1000), lang)
         else:
+            # SUCCESS: Use documents from vector database (TRUE RAG)
             response = compose_response(candidates, normalized_question, lang)
             response['trace_id'] = trace_id
-            response['mode'] = 'vertex_rag'
+            response['mode'] = 'vertex_rag'  # Primary path - real RAG
+            print(f"[{trace_id}] RAG response generated from {len(candidates)} document chunks")
             
         compose_ms = int((time.time() - compose_start) * 1000)
         
